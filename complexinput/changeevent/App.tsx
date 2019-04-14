@@ -1,7 +1,6 @@
 ﻿import * as React from 'react';
  
-import 'jqwidgets-scripts/jqwidgets/styles/jqx.base.css';
-import 'jqwidgets-scripts/jqwidgets/styles/jqx.material-purple.css';
+
 
 import JqxComplexInput from 'jqwidgets-scripts/jqwidgets-react-tsx/jqxcomplexinput';
 import JqxPanel from 'jqwidgets-scripts/jqwidgets-react-tsx/jqxpanel';

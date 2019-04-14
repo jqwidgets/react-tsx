@@ -1,7 +1,6 @@
 import * as React from 'react';
  
-import 'jqwidgets-scripts/jqwidgets/styles/jqx.base.css';
-import 'jqwidgets-scripts/jqwidgets/styles/jqx.material-purple.css';
+
 import JqxCalendar from 'jqwidgets-scripts/jqwidgets-react-tsx/jqxcalendar';
 
 class App extends React.PureComponent<{}> {

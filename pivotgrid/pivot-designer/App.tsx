@@ -1,7 +1,6 @@
 ﻿import * as React from 'react';
  
-import 'jqwidgets-scripts/jqwidgets/styles/jqx.base.css';
-import 'jqwidgets-scripts/jqwidgets/styles/jqx.material-purple.css';
+
 
 import JqxPivotDesigner from 'jqwidgets-scripts/jqwidgets-react-tsx/jqxpivotdesigner';
 import JqxPivotGrid, { IPivotGridProps, jqx } from 'jqwidgets-scripts/jqwidgets-react-tsx/jqxpivotgrid';
