@@ -42,7 +42,7 @@ const SortableComponent = (props: any) => {
         <JqxSortable theme={'material-purple'} className={"sortable"} connectWith={props.connectWith} opacity={props.opacity}>
             {firstNames.map((firstName, i): any => {
                 if (validation(props.whichHalf, i)) {
-                    const imgurl = './../images/' + firstNames[i].toLowerCase() + '.png';
+                    const imgurl = 'https://www.jqwidgets.com/react/images/' + firstNames[i].toLowerCase() + '.png';
                     return <InnerItems key={i} index={i} imgurl={imgurl} firstName={firstName} lastName={lastNames[i]} title={titles[i]} />;
                 }
             })}

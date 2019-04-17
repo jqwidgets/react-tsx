@@ -18,7 +18,7 @@ class App extends React.PureComponent<{}, IComboBoxProps> {
         this.state = {
             renderer: (index: number, label: string, value: any): string => {
                 const datarecord = data[index];
-                const imgurl = './../images/' + label.toLowerCase() + '.png';
+                const imgurl = 'https://www.jqwidgets.com/react/images/' + label.toLowerCase() + '.png';
                 const img = '<img height="50" width="45" src="' + imgurl + '"/>';
                 const table = '<table style="min-width: 150px;"><tr><td style="width: 55px;" rowspan="2">' + img + '</td><td>' + datarecord.firstname + ' ' + datarecord.lastname + '</td></tr><tr><td>' + datarecord.title + '</td></tr></table>';
                 return table;

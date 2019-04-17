@@ -52,7 +52,7 @@ class App extends React.PureComponent<{}, ITreeGridProps> {
 
   public render() {
     return (
-      <JqxTree theme={'material-purple'}Grid ref={this.myTreeGrid}
+      <JqxTreeGrid theme={'material-purple'} ref={this.myTreeGrid}
         source={this.state.source}
         altRows={true}
         columnsResize={true}

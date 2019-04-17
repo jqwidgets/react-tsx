@@ -58,7 +58,7 @@ class App extends React.PureComponent<{}> {
                 <br />
                 <div>Layout Types:</div>
                 <div onClick={this.clickOnLayout}>
-                    <img title={'click to apply a new layout'} alt={'layout types'} src={'./../images/LayoutTypes.png'} />
+                    <img title={'click to apply a new layout'} alt={'layout types'} src={'https://www.jqwidgets.com/react/images/LayoutTypes.png'} />
                 </div>
                 <br />
                 <div>Spiral:</div>

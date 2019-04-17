@@ -29,7 +29,7 @@ class App extends React.PureComponent<{}, IRangeSelectorProps> {
                     range={this.state.range} majorTicksInterval={'week'} minorTicksInterval={'day'}
                     labelsFormat={'dd'} markersFormat={'d'} showGroupLabels={true}>
                     <div id="jqxRangeSelectorContent">
-                        <img id="backgroundImage" style={{ display: 'block', width: '500px', height: '100px', background: 'url(./../images/imageNature5.jpg) -100px -100px' }} />
+                        <img id="backgroundImage" style={{ display: 'block', width: '500px', height: '100px', background: 'url(https://www.jqwidgets.com/react/images/imageNature5.jpg) -100px -100px' }} />
                     </div>
                 </JqxRangeSelector>
                 <br />

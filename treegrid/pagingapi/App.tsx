@@ -82,7 +82,7 @@ class App extends React.PureComponent<{}, ITreeGridProps> {
         return (
             <div>
                 <div style={{ float: "left" }}>
-                    <JqxTree theme={'material-purple'}Grid ref={this.myTreeGrid}
+                    <JqxTreeGrid theme={'material-purple'} ref={this.myTreeGrid}
                         onPageChanged={this.myTreeGridOnPageChanged}
                         onPageSizeChanged={this.myTreeGridOnPageSizeChanged}
                         width={560}

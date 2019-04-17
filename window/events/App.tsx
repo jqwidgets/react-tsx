@@ -51,7 +51,7 @@ class App extends React.PureComponent<{}, any> {
                     draggable={true}
                 >
                     <div>
-                        <img width="14" height="14" src="./../images/help.png" alt="" />
+                        <img width="14" height="14" src="https://www.jqwidgets.com/react/images/help.png" alt="" />
                         Modal Window
                     </div>
 

@@ -40,7 +40,7 @@ class App extends React.PureComponent<{}, ITreeGridProps> {
     const dataAdapter: any = new jqx.dataAdapter(source, {
       beforeLoadComplete: (records: any[]): any[] => {
         for (const item of records) {
-          const imgUrl = './../images/' + item.FirstName.toLowerCase() + '.png';
+          const imgUrl = 'https://www.jqwidgets.com/react/images/' + item.FirstName.toLowerCase() + '.png';
           item.icon = imgUrl;
         }
         return records;
@@ -72,7 +72,7 @@ class App extends React.PureComponent<{}, ITreeGridProps> {
 
   public render() {
     return (
-      <JqxTree theme={'material-purple'}Grid ref={this.myTreeGrid}
+      <JqxTreeGrid theme={'material-purple'} ref={this.myTreeGrid}
         // @ts-ignore
         width={'100%'}
         source={this.state.source}

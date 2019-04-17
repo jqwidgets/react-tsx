@@ -16,56 +16,56 @@ class App extends React.PureComponent<{}> {
             <JqxMenu theme={'material-purple'} width={150} height={225} mode={'vertical'}>
                 <ul>
                     <li>
-                        <img style={{ float: 'left', marginRight: '5px' }} src={'./../images/mailIcon.png'} /><span>Mail</span>
+                        <img style={{ float: 'left', marginRight: '5px' }} src={'https://www.jqwidgets.com/react/images/mailIcon.png'} /><span>Mail</span>
                     </li>
                     <li>
-                        <img style={{ float: 'left', marginRight: '5px' }} src={'./../images/calendarIcon.png'} /><span>Calendar</span>
+                        <img style={{ float: 'left', marginRight: '5px' }} src={'https://www.jqwidgets.com/react/images/calendarIcon.png'} /><span>Calendar</span>
                     </li>
                     <li>
-                        <img style={{ float: 'left', marginRight: '5px' }} src={'./../images/contactsIcon.png'} /><span>Contacts</span>
+                        <img style={{ float: 'left', marginRight: '5px' }} src={'https://www.jqwidgets.com/react/images/contactsIcon.png'} /><span>Contacts</span>
                     </li>
                     <li>
-                        <img style={{ float: 'left', marginRight: '5px' }} src={'./../images/folder.png'} /><span>
+                        <img style={{ float: 'left', marginRight: '5px' }} src={'https://www.jqwidgets.com/react/images/folder.png'} /><span>
                             <span>Inbox</span>
                         </span>
                         <ul>
                             <li>
-                                <img style={{ float: 'left', marginRight: '5px' }} src={'./../images/folder.png'} /><span>jQWidgets</span>
+                                <img style={{ float: 'left', marginRight: '5px' }} src={'https://www.jqwidgets.com/react/images/folder.png'} /><span>jQWidgets</span>
                                 <ul>
                                     <li>
-                                        <img style={{ float: 'left', marginRight: '5px' }} src={'./../images/folder.png'} /><span>Admin</span>
+                                        <img style={{ float: 'left', marginRight: '5px' }} src={'https://www.jqwidgets.com/react/images/folder.png'} /><span>Admin</span>
                                     </li>
                                     <li>
-                                        <img style={{ float: 'left', marginRight: '5px' }} src={'./../images/folder.png'} /><span>Corporate</span>
+                                        <img style={{ float: 'left', marginRight: '5px' }} src={'https://www.jqwidgets.com/react/images/folder.png'} /><span>Corporate</span>
                                     </li>
                                     <li>
-                                        <img style={{ float: 'left', marginRight: '5px' }} src={'./../images/folder.png'} /><span>Finance</span>
+                                        <img style={{ float: 'left', marginRight: '5px' }} src={'https://www.jqwidgets.com/react/images/folder.png'} /><span>Finance</span>
                                     </li>
                                     <li>
-                                        <img style={{ float: 'left', marginRight: '5px' }} src={'./../images/folder.png'} /><span>Other</span>
+                                        <img style={{ float: 'left', marginRight: '5px' }} src={'https://www.jqwidgets.com/react/images/folder.png'} /><span>Other</span>
                                     </li>
                                 </ul>
                             </li>
                             <li>
-                                <img style={{ float: 'left', marginRight: '5px' }} src={'./../images/folder.png'} /><span>Personal</span>
+                                <img style={{ float: 'left', marginRight: '5px' }} src={'https://www.jqwidgets.com/react/images/folder.png'} /><span>Personal</span>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <img style={{ float: 'left', marginRight: '5px' }} src={'./../images/recycle.png'} />
+                        <img style={{ float: 'left', marginRight: '5px' }} src={'https://www.jqwidgets.com/react/images/recycle.png'} />
                         <span>Deleted Items</span>
                         <ul>
                             <li>
-                                <img style={{ float: 'left', marginRight: '5px' }} src={'./../images/folder.png'} /><span>Today</span>
+                                <img style={{ float: 'left', marginRight: '5px' }} src={'https://www.jqwidgets.com/react/images/folder.png'} /><span>Today</span>
                             </li>
                             <li>
-                                <img style={{ float: 'left', marginRight: '5px' }} src={'./../images/folder.png'} /><span>
+                                <img style={{ float: 'left', marginRight: '5px' }} src={'https://www.jqwidgets.com/react/images/folder.png'} /><span>
                                     Last
                                     Week
             </span>
                             </li>
                             <li>
-                                <img style={{ float: 'left', marginRight: '5px' }} src={'./../images/folder.png'} /><span>
+                                <img style={{ float: 'left', marginRight: '5px' }} src={'https://www.jqwidgets.com/react/images/folder.png'} /><span>
                                     Last
                                     Month
             </span>
@@ -73,7 +73,7 @@ class App extends React.PureComponent<{}> {
                         </ul>
                     </li>
                     <li>
-                        <img style={{ float: 'left', marginRight: '5px' }} src={'./../images/settings.png'} /><span>Settings</span>
+                        <img style={{ float: 'left', marginRight: '5px' }} src={'https://www.jqwidgets.com/react/images/settings.png'} /><span>Settings</span>
                         <ul style={{ width: '230px' }}>
                             <li>
                                 <JqxCheckBox theme={'material-purple'} style={{ float: 'left', marginRight: '5px' }} checked={true} />
@@ -90,10 +90,10 @@ class App extends React.PureComponent<{}> {
                         </ul>
                     </li>
                     <li>
-                        <img style={{ float: 'left', marginRight: '5px' }} src={'./../images/notesIcon.png'} /><span>Notes</span>
+                        <img style={{ float: 'left', marginRight: '5px' }} src={'https://www.jqwidgets.com/react/images/notesIcon.png'} /><span>Notes</span>
                     </li>
                     <li>
-                        <img style={{ float: 'left', marginRight: '5px' }} src={'./../images/favorites.png'} /><span>Favorites</span>
+                        <img style={{ float: 'left', marginRight: '5px' }} src={'https://www.jqwidgets.com/react/images/favorites.png'} /><span>Favorites</span>
                     </li>
                 </ul>
             </JqxMenu>

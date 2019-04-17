@@ -20,7 +20,7 @@ class App extends React.PureComponent<{}> {
         const titles = ['Sales Representative', 'Vice President, Sales', 'Sales Representative', 'Sales Representative', 'Sales Manager', 'Sales Representative', 'Sales Representative', 'Inside Sales Coordinator', 'Sales Representative'];
 
         for (let i = 0; i < firstNames.length; i++) {
-            const imgurl = './../images/' + firstNames[i].toLowerCase() + '.png';
+            const imgurl = 'https://www.jqwidgets.com/react/images/' + firstNames[i].toLowerCase() + '.png';
             const img = '<img height="50" width="45" src="' + imgurl + '"/>';
             const table = '<table style="min-width: 150px;"><tr><td style="width: 55px;" rowspan="2">' + img + '</td><td>' + firstNames[i] + " " + lastNames[i] + '</td></tr><tr><td>' + titles[i] + '</td></tr></table>';
             this.employees.current!.innerHTML += table;

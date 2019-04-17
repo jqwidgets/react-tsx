@@ -89,7 +89,7 @@ class App extends React.PureComponent<{}, IChartProps> {
                 showLegend={true} enableAnimations={true} padding={this.state.padding}
                 titlePadding={this.state.titlePadding} source={this.state.source} xAxis={this.state.xAxis}
                 valueAxis={this.state.valueAxis} seriesGroups={this.state.seriesGroups} colorScheme={'scheme04'}
-                backgroundImage={'./../images/chart_background.jpg'}/>
+                backgroundImage={'https://www.jqwidgets.com/react/images/chart_background.jpg'}/>
         );
     }
 }

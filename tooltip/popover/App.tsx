@@ -28,7 +28,7 @@ class App extends React.PureComponent<{}, any> {
                         closeOnClick={false}
                         content={"The Amazing Spider-man"}
                         position={"left"}>
-                        <img ref={this.image} src='./../images/The_Amazng_Spider_Man.jpeg' />
+                        <img ref={this.image} src='https://www.jqwidgets.com/react/images/The_Amazng_Spider_Man.jpeg' />
                     </JqxTooltip>
                 </div>
             </div>

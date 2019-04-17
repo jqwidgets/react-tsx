@@ -57,7 +57,7 @@ class App extends React.PureComponent<{}, ITreeGridProps> {
                     'Anne has a BA degree in English from St. Lawrence College.  She is fluent in French and German.'];
                     
                 for (let i = 0; i < records.length; i++) {
-                    const imgUrl = './../images/' + records[i].FirstName.toLowerCase() + '.png';
+                    const imgUrl = 'https://www.jqwidgets.com/react/images/' + records[i].FirstName.toLowerCase() + '.png';
                     records[i].icon = imgUrl;
                     records[i].notes = notes[i];
                 }
@@ -92,7 +92,7 @@ class App extends React.PureComponent<{}, ITreeGridProps> {
 
     public render() {
         return (
-            <JqxTree theme={'material-purple'}Grid ref={this.myTreeGrid}
+            <JqxTreeGrid theme={'material-purple'} ref={this.myTreeGrid}
                 // @ts-ignore
                 width={'100%'}
                 source={this.state.source}

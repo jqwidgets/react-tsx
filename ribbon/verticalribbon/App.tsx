@@ -90,7 +90,7 @@ class App extends React.PureComponent<{}> {
                                     </tr>
                                     <tr>
                                         <td className="image">
-                                            <img src={'./../images/tv.png'} />
+                                            <img src={'https://www.jqwidgets.com/react/images/tv.png'} />
                                         </td>
                                     </tr>
                                     <tr>
@@ -165,7 +165,7 @@ class App extends React.PureComponent<{}> {
                                     </tr>
                                     <tr>
                                         <td className="image">
-                                            <img src={'./../images/Samsung-Galaxy-S4.png'} />
+                                            <img src={'https://www.jqwidgets.com/react/images/Samsung-Galaxy-S4.png'} />
                                         </td>
                                     </tr>
                                     <tr>
@@ -255,7 +255,7 @@ class App extends React.PureComponent<{}> {
                                     </tr>
                                     <tr>
                                         <td className="image">
-                                            <img src={'./../images/camera.png'} />
+                                            <img src={'https://www.jqwidgets.com/react/images/camera.png'} />
                                         </td>
                                     </tr>
                                     <tr>
@@ -360,7 +360,7 @@ class App extends React.PureComponent<{}> {
                                     </tr>
                                     <tr>
                                         <td className="image">
-                                            <img src={'./../images/l-25.jpg'} style={{ width: '140px', height: '105px' }} />
+                                            <img src={'https://www.jqwidgets.com/react/images/l-25.jpg'} style={{ width: '140px', height: '105px' }} />
                                         </td>
                                     </tr>
                                     <tr>

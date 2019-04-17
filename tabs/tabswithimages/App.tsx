@@ -29,7 +29,7 @@ class App extends React.PureComponent<{}, {}> {
 
     private itemsContent = [
         {
-            imgSrc: "./../images/building_big.jpg",
+            imgSrc: "https://www.jqwidgets.com/react/images/building_big.jpg",
             paragraph: `the Swiss Re Building (colloquially referred to as the Gherkin), is a skyscraper
         in London's main financial district, the City of London, completed in December 2003
         and opened at the end of May 2004. With 40 floors, the tower is 180 metres (591
@@ -47,7 +47,7 @@ class App extends React.PureComponent<{}, {}> {
             title: "30 St Mary Axe"
         },
         {
-            imgSrc: "./../images/building2_big.jpg",
+            imgSrc: "https://www.jqwidgets.com/react/images/building2_big.jpg",
             paragraph: `is a 5-star luxury hotel located in Dubai, United Arab Emirates. At 321 m (1,053
         ft), it is the fourth tallest hotel in the world. Burj Al Arab stands on an artificial
         island 280 m (920 ft) out from Jumeirah beach, and is connected to the mainland
@@ -64,7 +64,7 @@ class App extends React.PureComponent<{}, {}> {
             title: "Burj Al Arab"
         },
         {
-            imgSrc: "./../images/building3_big.jpg",
+            imgSrc: "https://www.jqwidgets.com/react/images/building3_big.jpg",
             paragraph: `(formerly named, and still commonly referred to as, the Sears Tower) is a 108-story,
         1,451-foot (442 m) skyscraper in Chicago, Illinois. At the time of its completion
         in 1973, it was the tallest building in the world, surpassing the World Trade Center
@@ -83,15 +83,15 @@ class App extends React.PureComponent<{}, {}> {
 
     private itemsHeader = [
         {
-            imgSrc: "./../images/building_small.jpg",
+            imgSrc: "https://www.jqwidgets.com/react/images/building_small.jpg",
             text: <span>30 St Mary <br />Axe</span>
         },
         {
-            imgSrc: "./../images/building2_small.jpg",
+            imgSrc: "https://www.jqwidgets.com/react/images/building2_small.jpg",
             text: "Burj Al Arab"
         },
         {
-            imgSrc: "./../images/building3_small.jpg",
+            imgSrc: "https://www.jqwidgets.com/react/images/building3_small.jpg",
             text: <span>The Willis <br />Tower</span>
         }
     ];

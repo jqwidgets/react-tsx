@@ -33,7 +33,7 @@ class App extends React.PureComponent<{}, IDataTableProps> {
                             <div style={{ float: 'left', width: '15%' }}>
                                 <div style={{ marginTop: '10px' }}>
                                     <div className="jqx-rc-all" style={{ margin: '10px' }}><b>Photo:</b></div>
-                                    <img height={60} src={'./../images/' + row.firstname.toLowerCase() + '.png'} style={{ marginLeft: '10px' }} />
+                                    <img height={60} src={'https://www.jqwidgets.com/react/images/' + row.firstname.toLowerCase() + '.png'} style={{ marginLeft: '10px' }} />
                                 </div>
                             </div>
                             <div style={{ float: 'left', width: '45%' }}>

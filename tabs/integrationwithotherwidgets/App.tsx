@@ -84,7 +84,7 @@ class App extends React.PureComponent<{}, IChartProps> {
                     <li style={{ marginLeft: 30 }}>
                         <div style={{ height: 20, marginTop: 5 }}>
                             <div style={{ float: "left" }}>
-                                <img width="16" height="16" src="./../images/catalogicon.png" />
+                                <img width="16" height="16" src="https://www.jqwidgets.com/react/images/catalogicon.png" />
                             </div>
                             <div style={{ marginLeft: 4, verticalAlign: 'middle', textAlign: "center", float: "left" }}>
                                 US Indexes
@@ -94,7 +94,7 @@ class App extends React.PureComponent<{}, IChartProps> {
                     <li>
                         <div style={{ height: 20, marginTop: 5 }}>
                             <div style={{ float: "left" }}>
-                                <img width="16" height="16" src="./../images/pieicon.png" />
+                                <img width="16" height="16" src="https://www.jqwidgets.com/react/images/pieicon.png" />
                             </div>
                             <div style={{ marginLeft: 4, verticalAlign: 'middle', textAlign: "center", float: "left" }}>
                                 NASDAQ compared to S&P 500

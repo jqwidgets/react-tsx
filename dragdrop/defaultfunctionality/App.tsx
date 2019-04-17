@@ -198,7 +198,7 @@ class App extends React.PureComponent<{}, IGridProps> {
                     <div className={`jqx-fill-state-normal-${this.theme} draggable-demo-product-price`}>
                         Price: <strong>${product.price}</strong>
                     </div>
-                    <img src={`./../images/t-shirts/${product.pic}`} alt={name} className="jqx-rc-b" />
+                    <img src={`https://www.jqwidgets.com/react/images/t-shirts/${product.pic}`} alt={name} className="jqx-rc-b" />
                 </JqxDragDrop>,
 
                 element,

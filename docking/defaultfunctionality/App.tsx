@@ -37,7 +37,7 @@ class App extends React.PureComponent<{}, IListBoxProps> {
                             <JqxCalendar theme={'material-purple'} width={180} height={180} style={{ float: 'left', marginRight: '10px' }} />
                             <h3 style={{ textAlign: 'center', color: '#787878' }}>Sunny</h3>
                             <div style={{ float: 'left', marginLeft: '30px', textAlign: 'center' }}>
-                                <img src={'./../images/sun-icon.png'} alt={'Sunny'} />
+                                <img src={'https://www.jqwidgets.com/react/images/sun-icon.png'} alt={'Sunny'} />
                             </div>
                             <div style={{ textAlign: 'left', marginLeft: '5px', marginTop: '10px', fontSize: '10px', float: 'right', marginRight: '20px' }}>
                                 Mo: 23 °C<br />
@@ -57,7 +57,7 @@ class App extends React.PureComponent<{}, IListBoxProps> {
                                 </ul>
                                 <div>
                                     <div style={{ padding: '3px', margin: '10px', width: '150px', height: '84px', float: 'left' }}>
-                                        <img src={'./../images/news_ie6.jpg'} alt={'IE6'} title={'IE6'} />
+                                        <img src={'https://www.jqwidgets.com/react/images/news_ie6.jpg'} alt={'IE6'} title={'IE6'} />
                                     </div>
                                     <span style={{ fontSize: '11px' }}>
                                         Microsoft is set to get a little more pushy ensuring
@@ -67,7 +67,7 @@ class App extends React.PureComponent<{}, IListBoxProps> {
                                 </div>
                                 <div>
                                     <div style={{ padding: '3px', margin: '10px', width: '144px', height: '81px', float: 'left' }}>
-                                        <img src={'./../images/local.jpg'} alt={'Local'} title={'Local'} />
+                                        <img src={'https://www.jqwidgets.com/react/images/local.jpg'} alt={'Local'} title={'Local'} />
                                     </div>
                                     <span style={{ fontSize: '11px' }}>
                                         The High Court has dismissed a challenge to laws that
@@ -77,7 +77,7 @@ class App extends React.PureComponent<{}, IListBoxProps> {
                                 </div>
                                 <div>
                                     <div style={{ padding: '3px', margin: '10px', width: '130px', height: '73px', float: 'left' }}>
-                                        <img src={'./../images/tennis.jpg'} alt={'Tennis'} title={'Tennis'} />
+                                        <img src={'https://www.jqwidgets.com/react/images/tennis.jpg'} alt={'Tennis'} title={'Tennis'} />
                                     </div>
                                     <span style={{ fontSize: '11px' }}>
                                         British number one Elena Baltacha says Judy Murray is
@@ -96,7 +96,7 @@ class App extends React.PureComponent<{}, IListBoxProps> {
                             <JqxPanel theme={'material-purple'} width={400} height={180}>
                                 <div style={{ paddingRight: '20px' }}>
                                     <div style={{ padding: '3px', width: '150px', height: '110px', float: 'left', margin: '10px' }}>
-                                        <img src={'./../images/leo.jpg'} alt={'Leo'} title={'Leo'} />
+                                        <img src={'https://www.jqwidgets.com/react/images/leo.jpg'} alt={'Leo'} title={'Leo'} />
                                     </div>
                                     <h3 style={{ textAlign: 'center', color: '#787878' }}>Leo</h3>
                                     <span style={{ fontSize: '11px' }}>

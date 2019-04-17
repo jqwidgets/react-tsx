@@ -21,13 +21,13 @@ class App extends React.PureComponent<{}> {
                         </tr>
                         <tr>
                             <td>
-                                <JqxButton theme={'material-purple'} width={120} height={50} imgSrc={'./../images/twitter.png'} imgPosition={'top'} />
+                                <JqxButton theme={'material-purple'} width={120} height={50} imgSrc={'https://www.jqwidgets.com/react/images/twitter.png'} imgPosition={'top'} />
                             </td>
                             <td>
-                                <JqxButton theme={'material-purple'} width={120} height={50} imgSrc={'./../images/twitter.png'} imgPosition={'topLeft'} />
+                                <JqxButton theme={'material-purple'} width={120} height={50} imgSrc={'https://www.jqwidgets.com/react/images/twitter.png'} imgPosition={'topLeft'} />
                             </td>
                             <td>
-                                <JqxButton theme={'material-purple'} width={120} height={50} imgSrc={'./../images/twitter.png'} imgPosition={'topRight'} />
+                                <JqxButton theme={'material-purple'} width={120} height={50} imgSrc={'https://www.jqwidgets.com/react/images/twitter.png'} imgPosition={'topRight'} />
                             </td>
                         </tr>
                     </tbody>
@@ -41,13 +41,13 @@ class App extends React.PureComponent<{}> {
                         </tr>
                         <tr>
                             <td>
-                                <JqxButton theme={'material-purple'} width={120} height={50} imgSrc={'./../images/twitter.png'} imgPosition={'center'} />
+                                <JqxButton theme={'material-purple'} width={120} height={50} imgSrc={'https://www.jqwidgets.com/react/images/twitter.png'} imgPosition={'center'} />
                             </td>
                             <td>
-                                <JqxButton theme={'material-purple'} width={120} height={50} imgSrc={'./../images/twitter.png'} imgPosition={'left'} />
+                                <JqxButton theme={'material-purple'} width={120} height={50} imgSrc={'https://www.jqwidgets.com/react/images/twitter.png'} imgPosition={'left'} />
                             </td>
                             <td>
-                                <JqxButton theme={'material-purple'} width={120} height={50} imgSrc={'./../images/twitter.png'} imgPosition={'right'} />
+                                <JqxButton theme={'material-purple'} width={120} height={50} imgSrc={'https://www.jqwidgets.com/react/images/twitter.png'} imgPosition={'right'} />
                             </td>
                         </tr>
                     </tbody>
@@ -61,13 +61,13 @@ class App extends React.PureComponent<{}> {
                         </tr>
                         <tr>
                             <td>
-                                <JqxButton theme={'material-purple'} width={120} height={50} imgSrc={'./../images/twitter.png'} imgPosition={'bottom'} />
+                                <JqxButton theme={'material-purple'} width={120} height={50} imgSrc={'https://www.jqwidgets.com/react/images/twitter.png'} imgPosition={'bottom'} />
                             </td>
                             <td>
-                                <JqxButton theme={'material-purple'} width={120} height={50} imgSrc={'./../images/twitter.png'} imgPosition={'bottomLeft'} />
+                                <JqxButton theme={'material-purple'} width={120} height={50} imgSrc={'https://www.jqwidgets.com/react/images/twitter.png'} imgPosition={'bottomLeft'} />
                             </td>
                             <td>
-                                <JqxButton theme={'material-purple'} width={120} height={50} imgSrc={'./../images/twitter.png'} imgPosition={'bottomRight'} />
+                                <JqxButton theme={'material-purple'} width={120} height={50} imgSrc={'https://www.jqwidgets.com/react/images/twitter.png'} imgPosition={'bottomRight'} />
                             </td>
                         </tr>
                     </tbody>

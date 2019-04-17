@@ -57,21 +57,21 @@ class App extends React.PureComponent<{}, ISplitterProps> {
                                 width={"100%"} height={"100%"}>
                                 <ul>
                                     <li item-expanded={"true"} id={"t1"}>
-                                        <img src={"./../images/contactsIcon.png"} /><span item-title={"true"}>News and Blogs</span>
+                                        <img src={"https://www.jqwidgets.com/react/images/contactsIcon.png"} /><span item-title={"true"}>News and Blogs</span>
                                         <ul>
                                             <li>
-                                                <img src={"./../images/favorites.png"} /><span item-title={"true"}>Favorites</span>
+                                                <img src={"https://www.jqwidgets.com/react/images/favorites.png"} /><span item-title={"true"}>Favorites</span>
                                                 <ul>
                                                     <li>
-                                                        <img src={"./../images/folder.png"} /><span item-title={"true"}>ScienceDaily</span>
+                                                        <img src={"https://www.jqwidgets.com/react/images/folder.png"} /><span item-title={"true"}>ScienceDaily</span>
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li>
-                                                <img src={"./../images/folder.png"} /><span item-title={"true"}>Geek.com</span>
+                                                <img src={"https://www.jqwidgets.com/react/images/folder.png"} /><span item-title={"true"}>Geek.com</span>
                                             </li>
                                             <li>
-                                                <img src={"./../images/folder.png"} /><span item-title={"true"}>CNN.com</span>
+                                                <img src={"https://www.jqwidgets.com/react/images/folder.png"} /><span item-title={"true"}>CNN.com</span>
                                             </li>
                                         </ul>
                                     </li>

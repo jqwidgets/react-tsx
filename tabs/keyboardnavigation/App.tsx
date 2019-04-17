@@ -32,7 +32,7 @@ class App extends React.PureComponent<{}, {}> {
                         <li>Priest</li>
                     </ul>
                     <div>
-                        <img src="./../images/avatar.png" style={{ float: "left", margin: 10 }} alt="" />
+                        <img src="https://www.jqwidgets.com/react/images/avatar.png" style={{ float: "left", margin: 10 }} alt="" />
                         Avatar is a 2009 American[6][7] epic science fiction film written and directed by
                         James Cameron, and starring Sam Worthington, Zoe Saldana, Stephen Lang, Michelle
                         Rodriguez, Joel David Moore, Giovanni Ribisi and Sigourney Weaver. The film is set
@@ -44,7 +44,7 @@ class App extends React.PureComponent<{}, {}> {
                         to interact with the natives of Pandora.
                     </div>
                     <div>
-                        <img src="./../images/endgame.png" style={{ float: "left", margin: 10 }} alt="" />
+                        <img src="https://www.jqwidgets.com/react/images/endgame.png" style={{ float: "left", margin: 10 }} alt="" />
                         End Game is a 2006 action/thriller film, written and directed by Andy Cheng. The
                         film stars Cuba Gooding, Jr. as Secret Service agent Alex Thomas, who is shot in
                         the hand, while unsuccessfully trying to protect the President (played by Jack Scalia)
@@ -56,7 +56,7 @@ class App extends React.PureComponent<{}, {}> {
                         DVD.
                     </div>
                     <div>
-                        <img src="./../images/twilight.png" style={{ float: "left", margin: 10 }} alt="" />
+                        <img src="https://www.jqwidgets.com/react/images/twilight.png" style={{ float: "left", margin: 10 }} alt="" />
                         The project was in development for approximately three years at Paramount Pictures,
                         during which time a screen adaptation that differed significantly from the novel
                         was written. Summit Entertainment acquired the rights to the novel after three years
@@ -66,7 +66,7 @@ class App extends React.PureComponent<{}, {}> {
                         completed on May 2, 2008; the film was primarily shot in Oregon
                     </div>
                     <div>
-                        <img src="./../images/unstoppable.png" style={{ float: "left", margin: 10 }} alt="" />
+                        <img src="https://www.jqwidgets.com/react/images/unstoppable.png" style={{ float: "left", margin: 10 }} alt="" />
                         Meanwhile, in a rail yard within the northern town of Fuller, two AWVR hostlers,
                         Dewey (Ethan Suplee) and Gilleece (T.J. Miller), are ordered by Fuller operations
                         dispatcher Bunny (Kevin Chapman) to move a freight train led by locomotive #777
@@ -79,7 +79,7 @@ class App extends React.PureComponent<{}, {}> {
                         Hooper (Rosario Dawson)...
                     </div>
                     <div>
-                        <img src="./../images/priest.png" style={{ float: "left", margin: 10 }} alt="" />
+                        <img src="https://www.jqwidgets.com/react/images/priest.png" style={{ float: "left", margin: 10 }} alt="" />
                         Priest is a 2011 American post-apocalyptic sci-fi western and supernatural action
                         film starring Paul Bettany as the title character. The film, directed by Scott Stewart,
                         is based on the Korean comic of the same name. In an alternate world, humanity and

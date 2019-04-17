@@ -19,7 +19,7 @@ class App extends React.PureComponent<{}, ISliderProps> {
     }
 
     public componentDidMount() {
-        (document.getElementsByClassName('slider-demo-header')[0] as HTMLElement).style.backgroundImage = "url('./../images/slider-demo-header-background.png')";
+        (document.getElementsByClassName('slider-demo-header')[0] as HTMLElement).style.backgroundImage = "url('https://www.jqwidgets.com/react/images/slider-demo-header-background.png')";
 
         this.carPreview().init();
     }
@@ -36,18 +36,18 @@ class App extends React.PureComponent<{}, ISliderProps> {
                     <div className="jqx-rc-all slider-demo-content-inner">
                         <div className="jqx-rc-all slider-demo-content-container">
                             <div id="navigationContainer" className="slider-demo-content-navigation">
-                                <img src="./../images/previous.png" className="slider-demo-navigation-item" alt="Previous"
+                                <img src="https://www.jqwidgets.com/react/images/previous.png" className="slider-demo-navigation-item" alt="Previous"
                                     title="Previous" id="previousButton" />
-                                <img src="./../images/play.png" className="slider-demo-navigation-item" alt="Play" title="Play"
+                                <img src="https://www.jqwidgets.com/react/images/play.png" className="slider-demo-navigation-item" alt="Play" title="Play"
                                     id="playButton" />
-                                <img src="./../images/stop.png" className="slider-demo-navigation-item" alt="Stop" title="Stop"
+                                <img src="https://www.jqwidgets.com/react/images/stop.png" className="slider-demo-navigation-item" alt="Stop" title="Stop"
                                     id="stopButton" />
-                                <img src="./../images/next.png" className="slider-demo-navigation-item" alt="Next" title="Next"
+                                <img src="https://www.jqwidgets.com/react/images/next.png" className="slider-demo-navigation-item" alt="Next" title="Next"
                                     style={{ marginRight: 3 }} id="nextButton" />
                             </div>
                             <div id="slider-demo-content-0" style={{ display: "block" }}>
                                 <div className="slider-demo-content-image-border">
-                                    <img src="./../images/mercedes.jpg" alt="Mercedes" />
+                                    <img src="https://www.jqwidgets.com/react/images/mercedes.jpg" alt="Mercedes" />
                                 </div>
                                 <div className="slider-demo-content-info">
                                     <span className="slider-demo-info-header">Brabus Black Baron</span>
@@ -62,7 +62,7 @@ class App extends React.PureComponent<{}, ISliderProps> {
                             </div>
                             <div id="slider-demo-content-1" style={{ display: "none" }}>
                                 <div className="slider-demo-content-image-border">
-                                    <img src="./../images/jaguar.jpg" alt="Jaguar" />
+                                    <img src="https://www.jqwidgets.com/react/images/jaguar.jpg" alt="Jaguar" />
                                 </div>
                                 <div className="slider-demo-content-info">
                                     <span className="slider-demo-info-header">Jaguar XFR</span>
@@ -76,7 +76,7 @@ class App extends React.PureComponent<{}, ISliderProps> {
                             </div>
                             <div id="slider-demo-content-2" style={{ display: "none" }}>
                                 <div className="slider-demo-content-image-border">
-                                    <img src="./../images/ferrari.jpg" alt="Ferrari" />
+                                    <img src="https://www.jqwidgets.com/react/images/ferrari.jpg" alt="Ferrari" />
                                 </div>
                                 <div className="slider-demo-content-info">
                                     <span className="slider-demo-info-header">Ferrari Enzo</span>
@@ -90,7 +90,7 @@ class App extends React.PureComponent<{}, ISliderProps> {
                             </div>
                             <div id="slider-demo-content-3" style={{ display: "none" }}>
                                 <div className="slider-demo-content-image-border">
-                                    <img src="./../images/lamborgini.jpg" alt="Lamborgini" />
+                                    <img src="https://www.jqwidgets.com/react/images/lamborgini.jpg" alt="Lamborgini" />
                                 </div>
                                 <div className="slider-demo-content-info">
                                     <span className="slider-demo-info-header">Lamborghini Gallardo</span>

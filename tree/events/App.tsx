@@ -20,15 +20,15 @@ class App extends React.PureComponent<{}, ITreeProps> {
       source: [
         {
           expanded: true,
-          icon: "./../images/mailIcon.png",
+          icon: "https://www.jqwidgets.com/react/images/mailIcon.png",
           items:
             [
               {
-                icon: "./../images/calendarIcon.png",
+                icon: "https://www.jqwidgets.com/react/images/calendarIcon.png",
                 label: "Calendar"
               },
               {
-                icon: "./../images/contactsIcon.png",
+                icon: "https://www.jqwidgets.com/react/images/contactsIcon.png",
                 label: "Contacts",
                 selected: true
               }
@@ -37,20 +37,20 @@ class App extends React.PureComponent<{}, ITreeProps> {
         },
         {
           expanded: true,
-          icon: "./../images/folder.png",
+          icon: "https://www.jqwidgets.com/react/images/folder.png",
           items:
             [
-              { icon: "./../images/folder.png", label: "Admin" },
-              { icon: "./../images/folder.png", label: "Corporate" },
-              { icon: "./../images/folder.png", label: "Finance" },
-              { icon: "./../images/folder.png", label: "Other" },
+              { icon: "https://www.jqwidgets.com/react/images/folder.png", label: "Admin" },
+              { icon: "https://www.jqwidgets.com/react/images/folder.png", label: "Corporate" },
+              { icon: "https://www.jqwidgets.com/react/images/folder.png", label: "Finance" },
+              { icon: "https://www.jqwidgets.com/react/images/folder.png", label: "Other" },
             ],
           label: "Inbox"
         },
-        { icon: "./../images/recycle.png", label: "Deleted Items" },
-        { icon: "./../images/notesIcon.png", label: "Notes" },
-        { iconsize: 14, icon: "./../images/settings.png", label: "Settings" },
-        { icon: "./../images/favorites.png", label: "Favorites" }
+        { icon: "https://www.jqwidgets.com/react/images/recycle.png", label: "Deleted Items" },
+        { icon: "https://www.jqwidgets.com/react/images/notesIcon.png", label: "Notes" },
+        { iconsize: 14, icon: "https://www.jqwidgets.com/react/images/settings.png", label: "Settings" },
+        { icon: "https://www.jqwidgets.com/react/images/favorites.png", label: "Favorites" }
       ]
     }
   }

@@ -49,7 +49,7 @@ class App extends React.PureComponent<{}, IGridProps> {
 
         const photoRenderer = (row: number, column: any, value: string, defaultHTML: string, columnData: any, rowData: any): string => {
             const name = rowData.FirstName;
-            const imgurl = './../images/' + name.toLowerCase() + '.png';
+            const imgurl = 'https://www.jqwidgets.com/react/images/' + name.toLowerCase() + '.png';
             const img = '<div style="background: white;"><img style="margin: 2px; margin-left: 10px;" width="32" height="32" src="' + imgurl + '"></div>';
             return img;
         }

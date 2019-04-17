@@ -29,7 +29,7 @@ class App extends React.PureComponent<{}, IInputProps> {
 
                 <div style={{ float: 'left' }}>
                     <JqxButton theme={'material-purple'} onClick={this.myBtnOnClick}
-                        width={28} height={23} imgSrc={'./../images/search_lg.png'} />
+                        width={28} height={23} imgSrc={'https://www.jqwidgets.com/react/images/search_lg.png'} />
                 </div>
             </div>
         );

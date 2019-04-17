@@ -71,7 +71,7 @@ class App extends React.PureComponent<{}, {}> {
         const parentElement = this.firstItem.current!.parentElement!;
         for (let i = 0; i < firstNames.length; i++) {
             const element = document.createElement('div');
-            const imgurl = './../images/' + firstNames[i].toLowerCase() + '.png';
+            const imgurl = 'https://www.jqwidgets.com/react/images/' + firstNames[i].toLowerCase() + '.png';
             const img = '<img height="50" width="40" src="' + imgurl + '" />';
             element.innerHTML = '<table style="min-width: 130px;"><tr><td style="width: 40px;" rowspan="2">' + img + '</td><td>' + firstNames[i] + ' ' + lastNames[i] + '</td></tr><tr><td>' + titles[i] + '</td></tr></table>';
             if (this.isFirstLoad) {

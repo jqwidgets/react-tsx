@@ -51,16 +51,16 @@ class App extends React.PureComponent<{}, IKanbanProps> {
                 ],
                 dataType: 'array',
                 localData: [
-                    { id: 0, name: 'No name', image: './../images/andrew.png', common: true },
-                    { id: 1, name: 'Andrew Fuller', image: './../images/andrew.png' },
-                    { id: 2, name: 'Janet Leverling', image: './../images/janet.png' },
-                    { id: 3, name: 'Steven Buchanan', image: './../images/steven.png' },
-                    { id: 4, name: 'Nancy Davolio', image: './../images/nancy.png' },
-                    { id: 5, name: 'Michael Buchanan', image: './../images/Michael.png' },
-                    { id: 6, name: 'Margaret Buchanan', image: './../images/margaret.png' },
-                    { id: 7, name: 'Robert Buchanan', image: './../images/robert.png' },
-                    { id: 8, name: 'Laura Buchanan', image: './../images/Laura.png' },
-                    { id: 9, name: 'Laura Buchanan', image: './../images/Anne.png' }
+                    { id: 0, name: 'No name', image: 'https://www.jqwidgets.com/react/images/andrew.png', common: true },
+                    { id: 1, name: 'Andrew Fuller', image: 'https://www.jqwidgets.com/react/images/andrew.png' },
+                    { id: 2, name: 'Janet Leverling', image: 'https://www.jqwidgets.com/react/images/janet.png' },
+                    { id: 3, name: 'Steven Buchanan', image: 'https://www.jqwidgets.com/react/images/steven.png' },
+                    { id: 4, name: 'Nancy Davolio', image: 'https://www.jqwidgets.com/react/images/nancy.png' },
+                    { id: 5, name: 'Michael Buchanan', image: 'https://www.jqwidgets.com/react/images/Michael.png' },
+                    { id: 6, name: 'Margaret Buchanan', image: 'https://www.jqwidgets.com/react/images/margaret.png' },
+                    { id: 7, name: 'Robert Buchanan', image: 'https://www.jqwidgets.com/react/images/robert.png' },
+                    { id: 8, name: 'Laura Buchanan', image: 'https://www.jqwidgets.com/react/images/Laura.png' },
+                    { id: 9, name: 'Laura Buchanan', image: 'https://www.jqwidgets.com/react/images/Anne.png' }
                 ]
             };
             const resourcesDataAdapter = new jqx.dataAdapter(resourcesSource);

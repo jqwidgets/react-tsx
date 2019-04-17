@@ -63,7 +63,7 @@ class App extends React.PureComponent<{}, ITreeGridProps> {
         return (
             <div>
                 <div onContextMenu={this.myTreeGridOnContextmenu}>
-                    <JqxTree theme={'material-purple'}Grid ref={this.myTreeGrid}
+                    <JqxTreeGrid theme={'material-purple'} ref={this.myTreeGrid}
                         onRowClick={this.myTreeGridOnRowClick}
                         // @ts-ignore
                         width={'100%'}

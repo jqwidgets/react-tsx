@@ -29,7 +29,7 @@ class App extends React.PureComponent<{}, IDataTableProps> {
                 align: 'center',
                 cellsRenderer: (row: number, column: string, value: any, rowData: any): string => {
                     let image = '<div style="margin: 5px; margin-bottom: 3px;">';
-                    const imgurl = './../images/' + rowData.firstname.toLowerCase() + '.png';
+                    const imgurl = 'https://www.jqwidgets.com/react/images/' + rowData.firstname.toLowerCase() + '.png';
                     const img = '<img width="60" height="60" style="display: block" src="' + imgurl + '"/>';
                     image += img;
                     image += '</div>';

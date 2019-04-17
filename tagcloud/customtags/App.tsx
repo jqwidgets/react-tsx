@@ -50,7 +50,7 @@ class App extends React.PureComponent<{}, ITagCloudProps> {
                 el.innerText = record.countryName;
                 const img = document.createElement('img');
                 img.setAttribute("style", "width: auto; height: auto; vertical-align: middle;");
-                img.src = "./../images/close.png";
+                img.src = "https://www.jqwidgets.com/react/images/close.png";
 
                 img.addEventListener('click', (event: any): void => {
                     const liItem = event.path[3];

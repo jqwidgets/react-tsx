@@ -1,4 +1,7 @@
 {
+    "scripts": {
+        "start": "react-scripts start"
+    },
     "dependencies": {
         "jqwidgets-scripts": "7.1.0",
         "react": "16.8.6",

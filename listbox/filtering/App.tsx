@@ -22,7 +22,7 @@ class App extends React.PureComponent<{}, IListBoxProps> {
         this.state = {
             renderer: (index: number, label: string, value: string): any => {
                 const datarecord = shirtFileNames[index];
-                const imgurl = './../images/t-shirts/' + datarecord.toLowerCase() + '.png';
+                const imgurl = 'https://www.jqwidgets.com/react/images/t-shirts/' + datarecord.toLowerCase() + '.png';
                 const img = '<img height="70" width="70" src="' + imgurl + '"/>';
                 const table = '<table style="min-width: 130px;"><tr><td style="width: 80px;">' + img + '</td><td>' + label + '</td></tr></table>';
 

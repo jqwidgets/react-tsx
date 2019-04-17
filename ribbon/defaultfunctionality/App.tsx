@@ -83,7 +83,7 @@ class App extends React.PureComponent<{}, any> {
 
         const icons = document.getElementsByClassName('icon');
         Array.prototype.forEach.call(icons, (icon: HTMLElement) => {
-            icon.style.backgroundImage = "url('./../images/ribbon-icons.png')";
+            icon.style.backgroundImage = "url('https://www.jqwidgets.com/react/images/ribbon-icons.png')";
         });
     }
 
@@ -312,11 +312,7 @@ class App extends React.PureComponent<{}, any> {
                                         <td colSpan={8} style={{ padding: 0 }}>
 
 
-
-
                                             TODO: Change this JqxTooltip "autoHide"
-
-
 
 
                                             <JqxTooltip theme={'material-purple'} position={"mouse"}
@@ -496,19 +492,19 @@ class App extends React.PureComponent<{}, any> {
                                                 width={36}
                                                 height={36}
                                             >
-                                                <img className="img" src="./../images/help-26.png" />
+                                                <img className="img" src="https://www.jqwidgets.com/react/images/help-26.png" />
                                             </JqxButton>
                                             Help
                                         </td>
                                         <td className="bigTd">
                                             <JqxButton theme={'material-purple'} className='button left' theme={'demoTheme'} width={36} height={36}>
-                                                <img className="img" src="./../images/about-26.png" />
+                                                <img className="img" src="https://www.jqwidgets.com/react/images/about-26.png" />
                                             </JqxButton>
                                             About
                                         </td>
                                         <td className="bigTd">
                                             <JqxButton theme={'material-purple'} className="button left" theme={'demoTheme'} width={36} height={36}>
-                                                <img className="img" src="./../images/downloading_updates-26.png" />
+                                                <img className="img" src="https://www.jqwidgets.com/react/images/downloading_updates-26.png" />
                                             </JqxButton>
                                             Update
                                         </td>

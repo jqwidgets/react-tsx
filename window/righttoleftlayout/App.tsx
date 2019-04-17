@@ -42,7 +42,7 @@ class App extends React.PureComponent<{}, any> {
                     <div>About 30 St Mary Axe</div>
 
                     <div>
-                        <img src="./../images/building_big.jpg" alt="" className={"big-image"} />
+                        <img src="https://www.jqwidgets.com/react/images/building_big.jpg" alt="" className={"big-image"} />
                         <div>
                             <h3 style={{ textAlign: "right", direction: "rtl" }}>30 St Mary Axe</h3>
                             <p className={"important-text"}>

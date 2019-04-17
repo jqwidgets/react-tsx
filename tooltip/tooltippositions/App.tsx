@@ -17,19 +17,19 @@ class App extends React.PureComponent<{}, any> {
                 <JqxTooltip theme={'material-purple'} position={"left"} name={"moveTooltip"}
                     content={"The Amazing Spider-man"}
                 >
-                    <img src='./../images/The_Amazng_Spider_Man.jpeg' />
+                    <img src='https://www.jqwidgets.com/react/images/The_Amazng_Spider_Man.jpeg' />
                 </JqxTooltip>
 
                 <JqxTooltip theme={'material-purple'} position={"right"} name={"moveTooltip"}
                     content={"Harry Potter and the Deathly Hallows"}
                 >
-                    <img src='./../images/Harry_Potter_7_Part_1.jpg' />
+                    <img src='https://www.jqwidgets.com/react/images/Harry_Potter_7_Part_1.jpg' />
                 </JqxTooltip>
 
                 <JqxTooltip theme={'material-purple'} position={"bottom"} name={"moveTooltip"}
                     content={"The Avengers"}
                 >
-                    <img src='./../images/The_Avengers.jpg' />
+                    <img src='https://www.jqwidgets.com/react/images/The_Avengers.jpg' />
                 </JqxTooltip>
             </div>
         );

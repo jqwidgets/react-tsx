@@ -94,7 +94,7 @@ class App extends React.PureComponent<{}, IState> {
                         <JqxButton theme={'material-purple'} onClick={this.clearBtnOnClick}>Clear Filter</JqxButton>
                     </div>
                 </div>
-                <JqxTree theme={'material-purple'}Grid ref={this.myTreeGrid}
+                <JqxTreeGrid theme={'material-purple'} ref={this.myTreeGrid}
                     width={600}
                     sortable={true}
                     source={this.state.source}

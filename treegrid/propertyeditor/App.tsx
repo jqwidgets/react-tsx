@@ -7,7 +7,7 @@ import JqxButton from 'jqwidgets-scripts/jqwidgets-react-tsx/jqxbuttons';
 import JqxInput from 'jqwidgets-scripts/jqwidgets-react-tsx/jqxinput';
 import JqxTreeGrid, { jqx } from 'jqwidgets-scripts/jqwidgets-react-tsx/jqxtreegrid';
 // import JqxTreeGrid, { ITreeGridProps, jqx } from 'jqwidgets-scripts/jqwidgets-react-tsx/jqxtreegrid';
-// import 'jqwidgets-scripts/jqwidgets/styles/jqx.base.css';
+// 
 
 
 class App extends React.PureComponent<{}, any> {
@@ -181,8 +181,6 @@ class App extends React.PureComponent<{}, any> {
                         // console.log(item!.getOptions('value'), editor[0]!.children[0]!.children[0].value, this.input.current!);
                         console.log(item!.getOptions('value'), editor[0]!.children[0]!.children[0].value);
 
-
-
                         // console.log('getEditorValue', rowKey, item, this.references[0]!.getOptions('value'));
                         // console.log('getEditorValue', rowKey, item, item._id, 7557, editor, querySelector);
                         // console.log('getEditorValue', row, rowKey, this.inputs, 7777, this.inputsRefs);
@@ -255,7 +253,7 @@ class App extends React.PureComponent<{}, any> {
             <div>
                 <JqxButton theme={'material-purple'} onClick={this.click}>Check</JqxButton>
 
-                <JqxTree theme={'material-purple'}Grid ref={this.myTreeGrid}
+                <JqxTreeGrid theme={'material-purple'} ref={this.myTreeGrid}
                     onCellValueChanged={this.cellValueChanged}
                     source={this.state.source}
                     altRows={true}

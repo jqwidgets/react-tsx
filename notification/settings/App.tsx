@@ -33,7 +33,7 @@ class App extends React.PureComponent<{}> {
             <div>
                 <JqxNotification theme={'material-purple'} ref={this.myNotification}
                     width={'auto'} autoOpen={false} autoClose={true} template={'info'}
-                    blink={false} icon={{ width: 25, height: 25, url: './../images/smiley.png', padding: 5 }}
+                    blink={false} icon={{ width: 25, height: 25, url: 'https://www.jqwidgets.com/react/images/smiley.png', padding: 5 }}
                     closeOnClick={true} opacity={0.9} position={'top-right'}>
                     <div>
                         <span>

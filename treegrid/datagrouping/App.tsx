@@ -50,7 +50,7 @@ class App extends React.PureComponent<{}, ITreeGridProps> {
                 if (level === 0) {
                     // each group row has a label member that contains the information displayed on the group row.
                     const country = rowData.label;
-                    return './../images/' + (country.toLowerCase()).trim() + '.png';
+                    return 'https://www.jqwidgets.com/react/images/' + (country.toLowerCase()).trim() + '.png';
                 }
                 return false;
             },
@@ -63,7 +63,7 @@ class App extends React.PureComponent<{}, ITreeGridProps> {
 
     public render() {
         return (
-            <JqxTree theme={'material-purple'}Grid ref={this.myTreeGrid}
+            <JqxTreeGrid theme={'material-purple'} ref={this.myTreeGrid}
                 // @ts-ignore
                 width={'100%'}
                 source={this.state.source}

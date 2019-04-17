@@ -115,7 +115,7 @@ class App extends React.PureComponent<{}, IState> {
           checkboxes={true}
         />
 
-        <JqxTree theme={'material-purple'}Grid ref={this.myTreeGrid} style={{ marginLeft: 20, float: 'left' }}
+        <JqxTreeGrid theme={'material-purple'} ref={this.myTreeGrid} style={{ marginLeft: 20, float: 'left' }}
           source={this.state.source}
           altRows={true}
           columns={this.state.columns}

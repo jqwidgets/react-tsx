@@ -149,28 +149,28 @@ class App extends React.PureComponent<{}, IState> {
 
         ReactDOM.render(
             <JqxButton theme={'material-purple'} onClick={addButtonClick}
-                width={80} height={25} value={'Add'} imgSrc={'./../images/add.png'}
+                width={80} height={25} value={'Add'} imgSrc={'https://www.jqwidgets.com/react/images/add.png'}
                 imgPosition={'center'} textPosition={'center'} textImageRelation={'imageBeforeText'} />,
             document.getElementById('addButton')
         );
 
         ReactDOM.render(
             <JqxButton theme={'material-purple'} onClick={deleteButtonClick}
-                width={80} height={25} value={'Delete'} imgSrc={'./../images/close.png'}
+                width={80} height={25} value={'Delete'} imgSrc={'https://www.jqwidgets.com/react/images/close.png'}
                 imgPosition={'center'} textPosition={'center'} textImageRelation={'imageBeforeText'} />,
             document.getElementById('deleteButton')
         );
 
         ReactDOM.render(
             <JqxButton theme={'material-purple'} onClick={reloadButtonClick}
-                width={80} height={25} value={'Reload'} imgSrc={'./../images/refresh.png'}
+                width={80} height={25} value={'Reload'} imgSrc={'https://www.jqwidgets.com/react/images/refresh.png'}
                 imgPosition={'center'} textPosition={'center'} textImageRelation={'imageBeforeText'} />,
             document.getElementById('reloadButton')
         );
 
         ReactDOM.render(
             <JqxButton theme={'material-purple'} onClick={searchButtonClick}
-                width={80} height={25} value={'Find'} imgSrc={'./../images/search.png'}
+                width={80} height={25} value={'Find'} imgSrc={'https://www.jqwidgets.com/react/images/search.png'}
                 imgPosition={'center'} textPosition={'center'} textImageRelation={'imageBeforeText'} />,
             document.getElementById('searchButton')
         );

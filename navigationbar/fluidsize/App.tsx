@@ -18,7 +18,7 @@ class App extends React.PureComponent<{}> {
                 <div>
                     <div style={{ marginTop: '2px' }}>
                         <div style={{ float: 'left' }}>
-                            <img alt={'Mail'} src={'./../images/mailIcon.png'} />
+                            <img alt={'Mail'} src={'https://www.jqwidgets.com/react/images/mailIcon.png'} />
                     </div>
                         <div style={{ marginLeft: '4px', float: 'left' }}>
                             Mail
@@ -35,7 +35,7 @@ class App extends React.PureComponent<{}> {
                 <div>
                     <div style={{ marginTop: '2px' }}>
                         <div style={{ float: 'left' }}>
-                            <img alt={'Mail'} src={'./../images/contactsIcon.png'} />
+                            <img alt={'Mail'} src={'https://www.jqwidgets.com/react/images/contactsIcon.png'} />
                         </div>
                         <div style={{ marginLeft: '4px', float: 'left' }}>
                             Contacts
@@ -53,7 +53,7 @@ class App extends React.PureComponent<{}> {
                 <div>
                     <div style={{ marginTop: '2px' }}>
                         <div style={{ float: 'left' }}>
-                            <img alt={'Mail'} src={'./../images/tasksIcon.png'} />
+                            <img alt={'Mail'} src={'https://www.jqwidgets.com/react/images/tasksIcon.png'} />
                         </div>
                         <div style={{ marginLeft: '4px', float: 'left' }}>
                             Tasks
@@ -71,7 +71,7 @@ class App extends React.PureComponent<{}> {
                 <div>
                     <div style={{ marginTop: '2px' }}>
                         <div style={{ float: 'left' }}>
-                            <img alt={'Mail'} src={'./../images/notesIcon.png'} />
+                            <img alt={'Mail'} src={'https://www.jqwidgets.com/react/images/notesIcon.png'} />
                         </div>
                         <div style={{ marginLeft: '4px', float: 'left' }}>
                             Notes

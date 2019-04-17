@@ -19,11 +19,11 @@ class App extends React.PureComponent<{}, IFileUploadProps> {
                 const extension = fileName.slice(stopIndex);
                 let iconUrl;
                 if (imageTypes.indexOf(extension) !== -1) {
-                    iconUrl = './../images/nav3.png';
+                    iconUrl = 'https://www.jqwidgets.com/react/images/nav3.png';
                 } else if (videoTypes.indexOf(extension) !== -1) {
-                    iconUrl = './../images/movie.png';
+                    iconUrl = 'https://www.jqwidgets.com/react/images/movie.png';
                 } else {
-                    iconUrl = './../images/nav1.png';
+                    iconUrl = 'https://www.jqwidgets.com/react/images/nav1.png';
                 }
                 return '<div><img src="' + iconUrl + '" style="dislplay: inline; width: 16px; height: 16px; margin-right: 5px;" /><span>' + name + '<strong>' + extension + '</strong></span></div>';
             }

@@ -150,7 +150,7 @@ class App extends React.PureComponent<{}> {
                                     </td>
                                     <td rowSpan={3} style={{ width: '125px' }} />
                                     <td rowSpan={3}>
-                                        <img src={'./../images/bookshop.png'} />
+                                        <img src={'https://www.jqwidgets.com/react/images/bookshop.png'} />
                                     </td>
                                 </tr>
                                 <tr>

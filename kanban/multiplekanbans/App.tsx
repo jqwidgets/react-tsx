@@ -22,10 +22,10 @@ class App extends React.PureComponent<{}, IState> {
                 { text: 'Done', dataField: 'done', maxItems: 5, collapseDirection: 'right' }
             ],
             resources: [
-                { id: 0, name: 'No name', image: './../images/andrew.png', common: true },
-                { id: 1, name: 'Andrew Fuller', image: './../images/andrew.png' },
-                { id: 2, name: 'Janet Leverling', image: './../images/janet.png' },
-                { id: 3, name: 'Steven Buchanan', image: './../images/steven.png' }
+                { id: 0, name: 'No name', image: 'https://www.jqwidgets.com/react/images/andrew.png', common: true },
+                { id: 1, name: 'Andrew Fuller', image: 'https://www.jqwidgets.com/react/images/andrew.png' },
+                { id: 2, name: 'Janet Leverling', image: 'https://www.jqwidgets.com/react/images/janet.png' },
+                { id: 3, name: 'Steven Buchanan', image: 'https://www.jqwidgets.com/react/images/steven.png' }
             ],
             source: [
                 { id: 3, status: 'done', text: 'Combine Orders', tags: 'orders, combine', color: '#5dc3f0', resourceId: 3 },

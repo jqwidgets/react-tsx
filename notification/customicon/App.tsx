@@ -25,7 +25,7 @@ class App extends React.PureComponent<{}> {
         return (
             <div>
                 <JqxNotification theme={'material-purple'} ref={this.myNotification}
-                    width={'auto'} icon={{ width: 25, height: 25, url: './../images/smiley.png', padding: 5 }}
+                    width={'auto'} icon={{ width: 25, height: 25, url: 'https://www.jqwidgets.com/react/images/smiley.png', padding: 5 }}
                     template={null} opacity={0.9} position={'top-left'}>
                     <div>
                         Thank you for your feedback!

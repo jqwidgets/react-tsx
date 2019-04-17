@@ -71,7 +71,7 @@ class App extends React.PureComponent<{}, IGridProps> {
             columns: [
                 {                  
                     cellsrenderer: (row: number, column: any, value: any): string => {
-                        return '<img src="./../images/t-shirts/' + value + '"/>';
+                        return '<img src="https://www.jqwidgets.com/react/images/t-shirts/' + value + '"/>';
                     },
                     datafield: 'pic', text: 'Image', width: 115
                 },
@@ -79,7 +79,7 @@ class App extends React.PureComponent<{}, IGridProps> {
                 { text: 'Price', cellsformat: 'c2', datafield: 'price' }
             ],
             scrollfeedback: (row: any): string => {
-                return '<table style="height: 150px;"><tr><td><img src="./../images/t-shirts/' + row.pic + '"/></td></tr><tr><td>' + row.label + '</td></tr></table>';
+                return '<table style="height: 150px;"><tr><td><img src="https://www.jqwidgets.com/react/images/t-shirts/' + row.pic + '"/></td></tr><tr><td>' + row.label + '</td></tr></table>';
             },
             source: new jqx.dataAdapter(source)
         }

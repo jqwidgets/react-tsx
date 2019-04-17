@@ -149,7 +149,7 @@ class App extends React.PureComponent<{}, IToolBarProps> {
         const position = this.myDropDownList.current!.val();
         const currentCountry = this.countries[Math.floor(Math.random() * this.countries.length)];
         this.myToolBar.current!.addTool('custom', position, false, (type: string, tool: any, menuToolIninitialization: boolean): void => {
-            tool.append('<img src="./../images/' + currentCountry + '.png" style="float: left; clear: both;" />');
+            tool.append('<img src="https://www.jqwidgets.com/react/images/' + currentCountry + '.png" style="float: left; clear: both;" />');
             if (menuToolIninitialization) {
                 // specific setting for minimized tool
                 tool.find('img').css('margin-right', '10px');

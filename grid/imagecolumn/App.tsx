@@ -15,7 +15,7 @@ class App extends React.PureComponent<{}, IGridProps> {
         };
 
         const imagerenderer = (row: number, datafield: string, value: string): string => {
-            return '<img style="margin-left: 5px;" height="60" width="50" src="./../images/' + value + '"/>';
+            return '<img style="margin-left: 5px;" height="60" width="50" src="https://www.jqwidgets.com/react/images/' + value + '"/>';
         };
 
         this.state = {

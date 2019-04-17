@@ -117,36 +117,36 @@ class App extends React.PureComponent<{}, IDockingLayoutProps> {
                         // initialize a jqxTree inside the Solution Explorer Panel
                         const source = [{
                             expanded: true,
-                            icon: './../images/earth.png',
+                            icon: 'https://www.jqwidgets.com/react/images/earth.png',
                             items: [{
                                 expanded: true,
-                                icon: './../images/folder.png',
+                                icon: 'https://www.jqwidgets.com/react/images/folder.png',
                                 items: [{
-                                    icon: './../images/nav1.png',
+                                    icon: 'https://www.jqwidgets.com/react/images/nav1.png',
                                     label: 'jqx.base.css'
                                 }, {
-                                    icon: './../images/nav1.png',
+                                    icon: 'https://www.jqwidgets.com/react/images/nav1.png',
                                     label: 'jqx.energyblue.css'
                                 }, {
-                                    icon: './../images/nav1.png',
+                                    icon: 'https://www.jqwidgets.com/react/images/nav1.png',
                                     label: 'jqx.orange.css'
                                 }],
                                 label: 'css'
                             }, {
-                                icon: './../images/folder.png',
+                                icon: 'https://www.jqwidgets.com/react/images/folder.png',
                                 items: [{
-                                    icon: './../images/nav1.png',
+                                    icon: 'https://www.jqwidgets.com/react/images/nav1.png',
                                     label: 'jqxcore.js'
                                 }, {
-                                    icon: './../images/nav1.png',
+                                    icon: 'https://www.jqwidgets.com/react/images/nav1.png',
                                     label: 'jqxdata.js'
                                 }, {
-                                    icon: './../images/nav1.png',
+                                    icon: 'https://www.jqwidgets.com/react/images/nav1.png',
                                     label: 'jqxgrid.js'
                                 }],
                                 label: 'scripts',
                             }, {
-                                icon: './../images/nav1.png',
+                                icon: 'https://www.jqwidgets.com/react/images/nav1.png',
                                 label: 'index.htm',
                                 selected: true
                             }],
@@ -231,19 +231,19 @@ class App extends React.PureComponent<{}, IDockingLayoutProps> {
             (): void => {
                 const source = [{
                     expanded: true,
-                    icon: './../images/dataadapter.png',
+                    icon: 'https://www.jqwidgets.com/react/images/dataadapter.png',
                     items: [{
-                        icon: './../images/validator.png',
+                        icon: 'https://www.jqwidgets.com/react/images/validator.png',
                         label: 'northwinddatabase.mdf'
                     }],
                     label: 'Data Connections'
                 }, {
-                    icon: './../images/nav1.png',
+                    icon: 'https://www.jqwidgets.com/react/images/nav1.png',
                     items: [{
-                        icon: './../images/nav1.png',
+                        icon: 'https://www.jqwidgets.com/react/images/nav1.png',
                         label: 'WorkStation3-PC'
                     }, {
-                        icon: './../images/dragdrop.png',
+                        icon: 'https://www.jqwidgets.com/react/images/dragdrop.png',
                         label: 'SharePoint Connections'
                     }],
                     label: 'Servers'

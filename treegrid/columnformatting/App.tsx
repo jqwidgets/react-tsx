@@ -69,7 +69,7 @@ class App extends React.PureComponent<{}, IState> {
     };
     return (
       <div>
-        <JqxTree theme={'material-purple'}Grid ref={this.myTreeGrid}
+        <JqxTreeGrid theme={'material-purple'} ref={this.myTreeGrid}
           // @ts-ignore
           width={'100%'}
           height={350}

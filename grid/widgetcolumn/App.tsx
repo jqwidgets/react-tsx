@@ -23,7 +23,7 @@ class App extends React.PureComponent<{}, IGridProps> {
             {
                 createwidget: (row: number, column: any, value: string, htmlElement: HTMLElement): void => {
 
-                    const imgurl = './../images/' + value.toLowerCase() + '.png';
+                    const imgurl = 'https://www.jqwidgets.com/react/images/' + value.toLowerCase() + '.png';
                     const onClick = () => {
                         alert(value);
                     };

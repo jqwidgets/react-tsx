@@ -37,12 +37,12 @@ class App extends React.PureComponent<{}, IButtonProps> {
                     <JqxButton theme={'material-purple'} width={120} height={30} onClick={this.submitButtonClicked}>Submit</JqxButton>
                 </div>
                 <div style={{ marginTop: '20px' }}>
-                    <JqxButton theme={'material-purple'} width={120} height={40} imgSrc={'./../images/facebook.png'} onClick={this.imageButtonClicked} />
+                    <JqxButton theme={'material-purple'} width={120} height={40} imgSrc={'https://www.jqwidgets.com/react/images/facebook.png'} onClick={this.imageButtonClicked} />
                 </div>
                 <div style={{ marginTop: '20px' }}>
                     <JqxButton theme={'material-purple'} ref={this.textImageButton} onClick={this.textImageButtonClicked}
                         width={120} height={40} textImageRelation={this.state.textImageRelation}
-                        imgPosition={this.state.imgPosition} textPosition={'left'} imgSrc={'./../images/twitter.png'}>
+                        imgPosition={this.state.imgPosition} textPosition={'left'} imgSrc={'https://www.jqwidgets.com/react/images/twitter.png'}>
                         Button
                     </JqxButton>
                 </div>

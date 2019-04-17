@@ -76,7 +76,7 @@ class App extends React.PureComponent<{}, ITreeGridProps> {
         const textAlignRigth: React.CSSProperties = { textAlign: 'right' };
         return (
             <div>
-                <JqxTree theme={'material-purple'}Grid ref={this.myTreeGrid}
+                <JqxTreeGrid theme={'material-purple'} ref={this.myTreeGrid}
                     onRowDoubleClick={this.RowDoubleClick}
                     // @ts-ignore
                     width={'100%'}

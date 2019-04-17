@@ -26,19 +26,19 @@ class App extends React.PureComponent<{}> {
             <div>
                 <JqxScrollView theme={'material-purple'} width={500} height={350} slideShow={true} showButtons={false}>
                     <div>
-                        <div className="photo" style={{ backgroundImage: 'url(./../images/imageNature1.jpg)' }} />
+                        <div className="photo" style={{ backgroundImage: 'url(https://www.jqwidgets.com/react/images/imageNature1.jpg)' }} />
                     </div>
                     <div>
-                        <div className="photo" style={{ backgroundImage: 'url(./../images/imageNature2.jpg)' }} />
+                        <div className="photo" style={{ backgroundImage: 'url(https://www.jqwidgets.com/react/images/imageNature2.jpg)' }} />
                     </div>
                     <div>
-                        <div className="photo" style={{ backgroundImage: 'url(./../images/imageNature3.jpg)' }} />
+                        <div className="photo" style={{ backgroundImage: 'url(https://www.jqwidgets.com/react/images/imageNature3.jpg)' }} />
                     </div>
                     <div>
-                        <div className="photo" style={{ backgroundImage: 'url(./../images/imageNature4.jpg)' }} />
+                        <div className="photo" style={{ backgroundImage: 'url(https://www.jqwidgets.com/react/images/imageNature4.jpg)' }} />
                     </div>
                     <div>
-                        <div className="photo" style={{ backgroundImage: 'url(./../images/imageNature5.jpg)' }} />
+                        <div className="photo" style={{ backgroundImage: 'url(https://www.jqwidgets.com/react/images/imageNature5.jpg)' }} />
                     </div>
                 </JqxScrollView>
 

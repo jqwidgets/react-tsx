@@ -26,7 +26,7 @@ class App extends React.PureComponent<{}, IRibbonProps> {
                     case 2:
                         ReactDOM.render(
                             <JqxButton theme={'material-purple'} width={20}>
-                                <img src={'./../images/refresh.png'} />
+                                <img src={'https://www.jqwidgets.com/react/images/refresh.png'} />
                             </JqxButton>,
                             document.getElementById('refreshButton'));
                         break;
@@ -42,7 +42,7 @@ class App extends React.PureComponent<{}, IRibbonProps> {
                     backgroundColor: '#1C3672', borderTopLeftRadius: '5px', borderTopRightRadius: '5px', boxSizing: 'border-box',
                     color: 'White', fontSize: 'large', paddingLeft: '10px', width: '800px'
                 }}>
-                    <img src={'./../images/mail.png'} style={{ marginRight: '10px', display: 'inline-block', verticalAlign: 'bottom' }} />
+                    <img src={'https://www.jqwidgets.com/react/images/mail.png'} style={{ marginRight: '10px', display: 'inline-block', verticalAlign: 'bottom' }} />
                     <div style={{ display: 'inline-block', fontWeight: 'bold' }}>
                         Inbox
                     </div>
