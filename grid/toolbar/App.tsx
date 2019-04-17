@@ -3,7 +3,7 @@
 
 import * as ReactDOM from 'react-dom';
 
-import { generatedata } from './static/generatedata';
+import { generatedata } from './public/generatedata';
 
 import JqxButton from 'jqwidgets-scripts/jqwidgets-react-tsx/jqxbuttons';
 import JqxDropDownList, { IDropDownListProps } from 'jqwidgets-scripts/jqwidgets-react-tsx/jqxdropdownlist';

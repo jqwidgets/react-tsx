@@ -3,7 +3,7 @@
 
 import * as ReactDOM from 'react-dom';
 
-import { generatedata } from './static/generatedata';
+import { generatedata } from './public/generatedata';
 
 import JqxDateTimeInput from 'jqwidgets-scripts/jqwidgets-react-tsx/jqxdatetimeinput';
 import JqxDropDownList from 'jqwidgets-scripts/jqwidgets-react-tsx/jqxdropdownlist';

@@ -2,7 +2,7 @@
  
 
 import * as ReactDOM from 'react-dom';
-import { generatedata } from './static/generatedata';
+import { generatedata } from './public/generatedata';
 
 import JqxDragDrop from 'jqwidgets-scripts/jqwidgets-react-tsx/jqxdragdrop'
 import JqxGrid, { IGridProps, jqx } from 'jqwidgets-scripts/jqwidgets-react-tsx/jqxgrid';

@@ -2,7 +2,7 @@ import * as React from 'react';
  
 
 
-import { generateordersdata } from './static/generatedata';
+import { generateordersdata } from './public/generatedata';
 
 import JqxDropDownList, { IDropDownListProps } from 'jqwidgets-scripts/jqwidgets-react-tsx/jqxdropdownlist';
 import JqxTreeGrid, { ITreeGridProps, jqx } from 'jqwidgets-scripts/jqwidgets-react-tsx/jqxtreegrid';

@@ -2,7 +2,7 @@
  
 
 
-import { generatedata } from './static/generatedata';
+import { generatedata } from './public/generatedata';
 
 import JqxGrid, { IGridProps, jqx } from 'jqwidgets-scripts/jqwidgets-react-tsx/jqxgrid';
 import JqxRadioButton from 'jqwidgets-scripts/jqwidgets-react-tsx/jqxradiobutton';

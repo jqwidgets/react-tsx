@@ -4,7 +4,7 @@
 
 import './App.css';
 
-import { generatedata } from './static/generatedata';
+import { generatedata } from './public/generatedata';
 
 import JqxDataTable, { IDataTableProps, jqx } from 'jqwidgets-scripts/jqwidgets-react-tsx/jqxdatatable';
 

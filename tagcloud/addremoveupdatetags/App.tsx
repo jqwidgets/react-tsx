@@ -2,7 +2,7 @@ import * as React from 'react';
  
 
 
-import { generatedata } from './static/generatedata';
+import { generatedata } from './public/generatedata';
 
 import JqxButton from 'jqwidgets-scripts/jqwidgets-react-tsx/jqxbuttons';
 import JqxTagCloud, { ITagCloudProps, jqx } from 'jqwidgets-scripts/jqwidgets-react-tsx/jqxtagcloud';
