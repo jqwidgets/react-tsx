@@ -63,7 +63,7 @@ class App extends React.PureComponent<{}, IState> {
         this.state = {
             labels: {
                 connectorWidth: 1,
-                formatFunction: (value: number): string => {
+                formatFunction: (value?: number): string => {
                     return value + ' cal.';
                 },
                 indent: 15,
