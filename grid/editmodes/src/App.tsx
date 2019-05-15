@@ -4,7 +4,7 @@
 
 import './App.css';
 
-import { generatedata } from './public/generatedata';
+import { generatedata } from './../public/generatedata';
 
 import JqxCheckBox from 'jqwidgets-scripts/jqwidgets-react-tsx/jqxcheckbox';
 import JqxDropDownList from 'jqwidgets-scripts/jqwidgets-react-tsx/jqxdropdownlist';

@@ -60,7 +60,7 @@ class App extends React.PureComponent<{}, ISchedulerProps> {
             <div>
                 <JqxScheduler theme={'material-purple'} ref={this.myScheduler}
                     // @ts-ignore
-                    width={getWidth("scheduler")}
+                    width={"100%"}
                     height={this.state.height}
                     date={this.state.date}
                     source={this.state.source}

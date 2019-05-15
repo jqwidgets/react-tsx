@@ -2,7 +2,7 @@ import * as React from 'react';
  
 
 
-import { generateordersdata } from './public/generatedata';
+import { generateordersdata } from './../public/generatedata';
 import JqxTreeGrid, { ITreeGridProps, jqx } from 'jqwidgets-scripts/jqwidgets-react-tsx/jqxtreegrid';
 // import { getLocalization } from 'public/localization';
 

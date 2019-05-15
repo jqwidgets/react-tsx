@@ -3,7 +3,7 @@
 
 import * as ReactDOM from 'react-dom';
 
-import { generatedata } from './public/generatedata';
+import { generatedata } from './../public/generatedata';
 
 import JqxDataTable, { IDataTableProps, jqx } from 'jqwidgets-scripts/jqwidgets-react-tsx/jqxdatatable';
 import JqxInput from 'jqwidgets-scripts/jqwidgets-react-tsx/jqxinput';

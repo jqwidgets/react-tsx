@@ -2,7 +2,7 @@
  
 
 
-import { generatedata } from './public/generatedata';
+import { generatedata } from './../public/generatedata';
 
 import JqxDropDownButton from 'jqwidgets-scripts/jqwidgets-react-tsx/jqxdropdownbutton';
 import JqxGrid, { IGridProps, jqx } from 'jqwidgets-scripts/jqwidgets-react-tsx/jqxgrid';

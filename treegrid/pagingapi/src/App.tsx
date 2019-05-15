@@ -2,7 +2,7 @@ import * as React from 'react';
  
 
 
-import { generateordersdata } from './public/generatedata';
+import { generateordersdata } from './../public/generatedata';
 
 import JqxButton from 'jqwidgets-scripts/jqwidgets-react-tsx/jqxbuttons';
 import JqxDropDownList from 'jqwidgets-scripts/jqwidgets-react-tsx/jqxdropdownlist';

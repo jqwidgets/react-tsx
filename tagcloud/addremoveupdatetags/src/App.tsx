@@ -2,7 +2,7 @@ import * as React from 'react';
  
 
 
-import { generatedata } from './public/generatedata';
+import { generatedata } from './../public/generatedata';
 
 import JqxButton from 'jqwidgets-scripts/jqwidgets-react-tsx/jqxbuttons';
 import JqxTagCloud, { ITagCloudProps, jqx } from 'jqwidgets-scripts/jqwidgets-react-tsx/jqxtagcloud';
@@ -40,7 +40,7 @@ class App extends React.PureComponent<{}, ITagCloudProps> {
                 This demo demonstrates how to add a tag in first position or update/remove the tag in first position.
                 <JqxTagCloud theme={'material-purple'} ref={this.myTagCloud}
 					// @ts-ignore
-                    width={getWidth("tagcloud")}
+                    width={"100%"}
                     source={this.state.source}
                     displayMember={"productname"}
                     valueMember={"price"}

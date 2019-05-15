@@ -92,7 +92,7 @@ class App extends React.PureComponent<{}, any> {
             <div>
                 <JqxRibbon theme={'material-purple'} ref={this.myRibbon}
                     // @ts-ignore
-                    width={getWidth("ribbon")}
+                    width={"100%")}
                     height={131}
                     animationType={"none"}
                     selectionMode={"click"}
@@ -516,7 +516,7 @@ class App extends React.PureComponent<{}, any> {
                 </JqxRibbon>
                 <JqxGrid theme={'material-purple'}
                     // @ts-ignore
-                    width={getWidth("ribbon") - 2}
+                    width={"100%"}
                     source={this.state.source}
                     theme={'demoTheme'}
                     editable={true}

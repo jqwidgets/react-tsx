@@ -71,7 +71,7 @@ class App extends React.PureComponent<{}, ISchedulerProps> {
                 onAppointmentChange={this.mySchedulerOnAppointmentChange}
                 onCellClick={this.mySchedulerOnCellClick}
                 // @ts-ignore
-                width={getWidth("scheduler")}
+                width={"100%"}
                 height={this.state.height}
                 date={this.state.date}
                 source={this.state.source}
