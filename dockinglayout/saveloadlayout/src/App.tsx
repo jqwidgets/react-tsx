@@ -161,7 +161,7 @@ class App extends React.PureComponent<{}, IDockingLayoutProps> {
         return (
             // @ts-ignore
             <div>
-                <JqxDocking theme={'material-purple'}Layout ref={this.myDockingLayout}
+                <JqxDockingLayout theme={'material-purple'} ref={this.myDockingLayout}
                     // @ts-ignore
                     width={'100%'} height={600} layout={this.state.layout}>
                     {/* The panel content divs can have a flat structure */}

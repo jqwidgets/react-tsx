@@ -85,7 +85,7 @@ class App extends React.PureComponent<{}, ITreeMapProps> {
 
     public render() {
         return (
-            <JqxTree theme={'material-purple'}Map
+            <JqxTreeMap theme={'material-purple'}
                 width={'75%'}
                 height={'75%'}
                 source={this.state.source}

@@ -150,7 +150,7 @@ class App extends React.PureComponent<{}, IDockingLayoutProps> {
     public render() {
         return (
             // @ts-ignore
-            <JqxDocking theme={'material-purple'}Layout width={'100%'} height={600} layout={this.state.layout} rtl={true}>
+            <JqxDockingLayout theme={'material-purple'} width={'100%'} height={600} layout={this.state.layout} rtl={true}>
                 {/* The panel content divs can have a flat structure */}
                 {/* autoHideGroup */}
                 <div data-container={'ToolboxPanel'}>

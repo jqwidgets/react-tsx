@@ -34,7 +34,7 @@ class App extends React.PureComponent<{}, IState> {
     public render() {
         return (
             <div>
-                <JqxButton theme={'material-purple'}Group ref={this.myButtonGroup} onButtonclick={this.groupOnBtnClick} mode={this.state.mode}>
+                <JqxButtonGroup theme={'material-purple'} ref={this.myButtonGroup} onButtonclick={this.groupOnBtnClick} mode={this.state.mode}>
                     <button style={{ padding: '4px 16px' }} id='Left' value='Left' />
                     <button style={{ padding: '4px 16px' }} id='Center' value='Center' />
                     <button style={{ padding: '4px 16px' }} id='Right' value='Right' />
