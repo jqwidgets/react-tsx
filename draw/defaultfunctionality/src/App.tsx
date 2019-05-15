@@ -50,7 +50,7 @@ class App extends React.PureComponent<{}, IDrawProps> {
 
     public render() {
         return (
-            <JqxDraw theme={'material-purple'} ref={this.myDraw} style={{ width: '800px', height: '500px' }} />
+            <JqxDraw ref={this.myDraw} style={{ width: '800px', height: '500px' }} />
         );
     }
 }

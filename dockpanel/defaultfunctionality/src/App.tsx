@@ -41,7 +41,7 @@ class App extends React.PureComponent<{}> {
 
         return (
             <div style={{ width: '300px', height: '600px', fontSize: '13px', fontFamily: 'Verdana' }}>
-                <JqxDockPanel theme={'material-purple'} ref={this.myDockPanel} style={{ color: 'white' }} width={300} height={210}>
+                <JqxDockPanel  ref={this.myDockPanel} style={{ color: 'white' }} width={300} height={210}>
                     <div ref={this.first} style={{ background: '#486974' }}>
                         First Div
                     </div>
@@ -62,7 +62,7 @@ class App extends React.PureComponent<{}> {
                 </div>
                 <br />
                 <div>Spiral:</div>
-                <JqxDockPanel theme={'material-purple'} style={{ color: 'white' }} width={300} height={210} lastchildfill={false}>
+                <JqxDockPanel  style={{ color: 'white' }} width={300} height={210} lastchildfill={false}>
                     <div ref={this.left} style={{ background: '#486974', width: '20px' }}>
                         1
                     </div>

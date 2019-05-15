@@ -39,7 +39,7 @@ class App extends React.PureComponent<{}, IBarGaugeProps> {
 
     public render() {
         return (
-            <JqxBarGauge theme={'material-purple'} ref={this.myBarGauge} onDrawEnd={this.onDrawEnd}
+            <JqxBarGauge ref={this.myBarGauge} onDrawEnd={this.onDrawEnd}
                 // @ts-ignore
                 width={'100%'} relativeInnerRadius={0.6}
                 values={[25]} formatFunction={this.state.formatFunction}

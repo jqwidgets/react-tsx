@@ -55,7 +55,7 @@ class App extends React.PureComponent<{}, IChartProps> {
         return (
             <div>
                 <div onMouseLeave={this.chartEvent} onMouseEnter={this.chartEvent}>
-                    <JqxChart theme={'material-purple'} onClick={this.chartEvent} onToggle={this.chartEvent}
+                    <JqxChart onClick={this.chartEvent} onToggle={this.chartEvent}
                         style={{ width: '850px', height: '500px' }}
                         title={this.state.title} description={this.state.description}
                         showToolTips={false} enableAnimations={true} padding={this.state.padding}

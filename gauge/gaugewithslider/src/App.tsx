@@ -37,7 +37,7 @@ class App extends React.PureComponent<{}, IGaugeProps> {
 
         return (
             <div style={{ position: 'relative', height: '380px' }}>
-                <JqxGauge theme={'material-purple'} ref={this.myGauge}
+                <JqxGauge  ref={this.myGauge}
                     animationDuration={1500} ranges={this.state.ranges} cap={this.state.cap} border={this.state.border}
                     ticksMinor={this.state.ticksMinor} ticksMajor={this.state.ticksMajor}
                     labels={this.state.labels} pointer={this.state.pointer} />

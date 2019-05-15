@@ -66,7 +66,7 @@ class App extends React.PureComponent<{}, IBulletChartProps> {
 
     public render() {
         return (
-            <JqxBulletChart theme={'material-purple'}
+            <JqxBulletChart
                 width={150} height={500} barSize={'35%'} labelsFormat={'c'}
                 title={this.state.title} description={this.state.description}
                 showTooltip={true} labelsFormatFunction={this.state.labelsFormatFunction}

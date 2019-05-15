@@ -29,7 +29,7 @@ class App extends React.PureComponent<{}, IState> {
     public render() {
         return (
             <div>
-                <JqxColorPicker theme={'material-purple'} onColorchange={this.colorChanged}
+                <JqxColorPicker onColorchange={this.colorChanged}
                     width={250} height={250} colorMode={this.state.colorMode} />
        
                 <div style={{ fontSize: '13px', fontFamily: 'Verdana', marginTop: '10px' }}>

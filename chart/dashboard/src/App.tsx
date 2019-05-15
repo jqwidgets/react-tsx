@@ -174,7 +174,7 @@ class App extends React.PureComponent<{}, IState> {
                 <tbody>
                     <tr>
                         <td>
-                            <JqxChart theme={'material-purple'} style={{ width: '360px', height: '180px' }}
+                            <JqxChart style={{ width: '360px', height: '180px' }}
                                 title={'Cluster capacity'} description={''}
                                 showLegend={false} enableAnimations={true} padding={this.state.padding}
                                 titlePadding={this.state.titlePadding} source={this.state.data1} showToolTips={true}
@@ -182,7 +182,7 @@ class App extends React.PureComponent<{}, IState> {
                                 backgroundColor={'#FAFAFA'} drawBefore={this.state.drawBefore} />
                         </td>
                         <td>
-                            <JqxChart theme={'material-purple'} style={{ width: '360px', height: '180px' }}
+                            <JqxChart style={{ width: '360px', height: '180px' }}
                                 title={'Avg. CPU %'} description={''}
                                 showLegend={false} enableAnimations={true} padding={this.state.padding}
                                 titlePadding={this.state.titlePadding} source={this.state.data2} showToolTips={true}
@@ -192,7 +192,7 @@ class App extends React.PureComponent<{}, IState> {
                     </tr>
                     <tr>
                         <td>
-                            <JqxChart theme={'material-purple'} style={{ width: '360px', height: '180px' }}
+                            <JqxChart style={{ width: '360px', height: '180px' }}
                                 title={'Storage capacity [TB]'} description={''}
                                 showLegend={false} enableAnimations={true} padding={this.state.padding}
                                 titlePadding={this.state.titlePadding} source={this.state.data3} showToolTips={true}
@@ -200,7 +200,7 @@ class App extends React.PureComponent<{}, IState> {
                                 backgroundColor={'#FAFAFA'} drawBefore={this.state.drawBefore} />
                         </td>
                         <td>
-                            <JqxChart theme={'material-purple'} style={{ width: '360px', height: '180px' }}
+                            <JqxChart style={{ width: '360px', height: '180px' }}
                                 title={'Network utilization %'} description={''}
                                 showLegend={false} enableAnimations={true} padding={this.state.padding}
                                 titlePadding={this.state.titlePadding} source={this.state.data4} showToolTips={true}
@@ -210,7 +210,7 @@ class App extends React.PureComponent<{}, IState> {
                     </tr>
                     <tr>
                         <td colSpan={2}>
-                            <JqxChart theme={'material-purple'} style={{ width: '850px', height: '300px' }}
+                            <JqxChart style={{ width: '850px', height: '300px' }}
                                 title={'Get request per second & response latencies'} description={''}
                                 showLegend={false} enableAnimations={true} padding={this.state.padding}
                                 titlePadding={this.state.titlePadding} source={this.state.data5} showToolTips={true}

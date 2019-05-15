@@ -155,7 +155,7 @@ class App extends React.PureComponent<{}, IFormProps> {
 
     public render() {
         return (
-            <JqxForm theme={'material-purple'} ref={this.myForm} style={{ width: '500px', height: 'auto' }}
+            <JqxForm ref={this.myForm} style={{ width: '500px', height: 'auto' }}
                 template={this.state.template} value={this.state.value} />
         );
     }

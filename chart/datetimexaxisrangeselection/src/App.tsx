@@ -83,7 +83,7 @@ class App extends React.PureComponent<{}, IChartProps> {
 
     public render() {
         return (
-            <JqxChart theme={'material-purple'} style={{ width: '850px', height: '500px' }} onRangeSelectionChanging={this.chartChange}
+            <JqxChart style={{ width: '850px', height: '500px' }} onRangeSelectionChanging={this.chartChange}
                 title={this.state.title} description={this.state.description}
                 enableCrosshairs={true} enableAnimations={true} padding={this.state.padding} xAxis={this.state.xAxis}
                 titlePadding={this.state.titlePadding} source={this.state.source} animationDuration={1500}

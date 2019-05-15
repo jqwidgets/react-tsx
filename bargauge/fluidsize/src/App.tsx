@@ -18,7 +18,7 @@ class App extends React.PureComponent<{}, IBarGaugeProps> {
 
     public render() {
         return ( 
-            <JqxBarGauge theme={'material-purple'}
+            <JqxBarGauge
                 width={'75%'} height={'75%'}
                 colorScheme={'scheme11'} values={this.state.values}
             />

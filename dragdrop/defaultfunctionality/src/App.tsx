@@ -188,7 +188,7 @@ class App extends React.PureComponent<{}, IGridProps> {
             
             const target = [document.querySelector('#cart')];
             ReactDOM.render(
-                <JqxDragDrop theme={'material-purple'} ref={widget} className={`draggable-demo-product jqx-rc-all dragDrop${id}`} style={style}
+                <JqxDragDrop  ref={widget} className={`draggable-demo-product jqx-rc-all dragDrop${id}`} style={style}
                     onDropTargetEnter={dropTargetEnterHandler} onDropTargetLeave={dropTargetLeave}
                     onDragEnd={dragEndHandler} onDragStart={dragStartHandler}
                     dropTarget={target} revert={true}>

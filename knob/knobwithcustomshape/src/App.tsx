@@ -65,7 +65,7 @@ class App extends React.PureComponent<{}, IKnobProps> {
 
     public render() {
         return (
-            <JqxKnob theme={'material-purple'}
+            <JqxKnob
                 value={-100} min={-100} max={100}
                 startAngle={120} endAngle={480} step={0.5}
                 dragStartAngle={120} dragEndAngle={420}

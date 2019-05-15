@@ -65,7 +65,7 @@ class App extends React.PureComponent<{}, IChartProps> {
         return (
             <div>
                 <div onMouseMove={this.myChartOnMouseMove}>
-                    <JqxChart theme={'material-purple'} ref={this.myChart} style={{ width: '850px', height: '500px' }} onClick={this.myChartOnClick}
+                    <JqxChart ref={this.myChart} style={{ width: '850px', height: '500px' }} onClick={this.myChartOnClick}
                         title={this.state.title} description={this.state.description}
                         enableAnimations={false} padding={this.state.padding} titlePadding={this.state.titlePadding}
                         source={this.state.source} xAxis={this.state.xAxis} valueAxis={this.state.valueAxis}

@@ -101,7 +101,7 @@ class App extends React.PureComponent<{}, IState> {
     public render() {
         return (
             <div>
-                <JqxBulletChart theme={'material-purple'} ref={this.myBulletChart} style={{ float: 'left', marginLeft: '10px' }}
+                <JqxBulletChart ref={this.myBulletChart} style={{ float: 'left', marginLeft: '10px' }}
                     // @ts-ignore
                     width={'100%'} height={80} barSize={'40%'} ranges={this.state.ranges}
                     ticks={this.state.ticks} title={'Revenue 2019 YTD'} description={'(U.S. $ in thousands)'}

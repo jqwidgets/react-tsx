@@ -50,7 +50,7 @@ class App extends React.PureComponent<{}, IKnobProps> {
     public render() {
         return (
             <div className="container">
-                <JqxKnob theme={'material-purple'}
+                <JqxKnob
                     width={'75%'} height={'75%'}
                     value={60} min={0} max={100} startAngle={120}
                     endAngle={420} snapToStep={true} rotation={"clockwise"}

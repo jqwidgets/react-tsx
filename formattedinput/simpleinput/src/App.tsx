@@ -19,7 +19,7 @@ class App extends React.PureComponent<{}> {
     public render() {
         return (
             <div>
-                <JqxForm theme={'material-purple'}attedInput ref={this.myFormattedInput} style={{ float: 'left' }}
+                <JqxFormattedInput ref={this.myFormattedInput} style={{ float: 'left' }}
                     width={250} height={25} radix={'binary'} value={100001} spinButtons={true} />
 
                 <div style={{ marginTop: '20px' }}>

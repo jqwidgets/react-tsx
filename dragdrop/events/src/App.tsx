@@ -34,7 +34,7 @@ class App extends React.PureComponent<{}, IDragDropProps> {
         return (
             <div className="main-container">
                 <div id="draggable-parent">
-                    <JqxDragDrop theme={'material-purple'} className="draggable"
+                    <JqxDragDrop  className="draggable"
                         onDragStart={this.onDragStart} onDragEnd={this.onDragEnd}
                         onDropTargetEnter={this.onDropTargetEnter} onDropTargetLeave={this.onDropTargetLeave}
                         restricter={this.state.restricter} dropTarget={'.drop-target'}>

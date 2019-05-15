@@ -60,7 +60,7 @@ class App extends React.PureComponent<{}, IChartProps> {
 
     public render() {
         return (
-            <JqxChart theme={'material-purple'} style={{ width: '850px', height: '500px' }}
+            <JqxChart style={{ width: '850px', height: '500px' }}
                 title={this.state.title} description={this.state.description}
                 showLegend={true} enableAnimations={true} enableCrosshairs={true}
                 crosshairsDashStyle={'2,2'} crosshairsLineWidth={1} crosshairsColor={'#888888'}

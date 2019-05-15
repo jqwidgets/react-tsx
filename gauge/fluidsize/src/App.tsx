@@ -24,7 +24,7 @@ class App extends React.PureComponent<{}, IGaugeProps> {
     public render() {
 
         return (
-            <JqxGauge theme={'material-purple'}
+            <JqxGauge 
                 width={'40%'} ranges={this.state.ranges} ticksMinor={this.state.ticksMinor}
                 ticksMajor={this.state.ticksMajor} value={0} colorScheme={'scheme05'} animationDuration={1200} />
         );

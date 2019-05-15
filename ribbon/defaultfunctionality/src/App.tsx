@@ -92,7 +92,7 @@ class App extends React.PureComponent<{}, any> {
             <div>
                 <JqxRibbon theme={'material-purple'} ref={this.myRibbon}
                     // @ts-ignore
-                    width={"100%")}
+                    width={"100%"}
                     height={131}
                     animationType={"none"}
                     selectionMode={"click"}
@@ -279,7 +279,7 @@ class App extends React.PureComponent<{}, any> {
                                                 theme={"demoTheme"}
                                             >
                                                 <div style={{ padding: 3 }}>
-                                                    <JqxColorPicker theme={'material-purple'}
+                                                    <JqxColorPicker
                                                         onColorchange={this.onFontColorPicker}
                                                         width={180}
                                                         height={180}
@@ -297,7 +297,7 @@ class App extends React.PureComponent<{}, any> {
                                                 theme={"demoTheme"}
                                             >
                                                 <div style={{ padding: 3 }}>
-                                                    <JqxColorPicker theme={'material-purple'}
+                                                    <JqxColorPicker
                                                         onColorchange={this.onHighlightColorPicker}
                                                         width={180}
                                                         height={180}
@@ -426,7 +426,7 @@ class App extends React.PureComponent<{}, any> {
                                                     width={42} height={19}
                                                     dropDownWidth={180} theme={"demoTheme"}>
                                                     <div style={{ padding: 3 }}>
-                                                        <JqxColorPicker theme={'material-purple'} onColorchange={this.onBucketColorPicker}
+                                                        <JqxColorPicker onColorchange={this.onBucketColorPicker}
                                                             width={180} height={180}
                                                             color={"000000"} colorMode={"hue"} />
                                                     </div>

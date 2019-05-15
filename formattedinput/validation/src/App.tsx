@@ -12,7 +12,7 @@ class App extends React.PureComponent<{}> {
 
     public render() {
         return (
-            <JqxForm theme={'material-purple'}attedInput
+            <JqxFormattedInput
                 width={250} height={25} radix={'decimal'} value={0}
                 min={0} max={1000} spinButtons={true} />
         );

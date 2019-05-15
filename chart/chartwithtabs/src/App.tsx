@@ -175,7 +175,7 @@ class App extends React.PureComponent<{}, IState> {
                     </li>
                 </ul>
                 <div style={{ overflow: 'hidden' }}>
-                    <JqxChart theme={'material-purple'} ref={this.myChart} style={{ width: '100%', height: '100%' }}
+                    <JqxChart ref={this.myChart} style={{ width: '100%', height: '100%' }}
                         title={'S&P 500 Candlestick Chart'} description={'January 2014 - November 2014'}
                         enableAnimations={true} animationDuration={1500}
                         enableCrosshairs={true} padding={this.state.padding}
@@ -183,7 +183,7 @@ class App extends React.PureComponent<{}, IState> {
                         seriesGroups={this.state.seriesGroups} colorScheme={'scheme17'} />
                 </div>
                 <div style={{ overflow: 'hidden' }}>
-                    <JqxChart theme={'material-purple'} style={{ width: '100%', height: '100%' }}
+                    <JqxChart style={{ width: '100%', height: '100%' }}
                         title={'U.S.Stock Market Index Performance (2014)'} description={'NASDAQ Composite compared to S&P 500'}
                         showLegend={true} enableAnimations={true} padding={this.state.padding}
                         animationDuration={1500} source={this.state.source2} xAxis={this.state.xAxis2}

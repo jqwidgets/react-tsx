@@ -95,7 +95,7 @@ class App extends React.PureComponent<{}, IState> {
     public render() {
         return (
             <div>
-                <JqxChart theme={'material-purple'} ref={this.myChart} style={{ width: '850px', height: '500px' }}
+                <JqxChart ref={this.myChart} style={{ width: '850px', height: '500px' }}
                     title={this.state.title} description={this.state.description} enableAxisTextAnimation={true}
                     showLegend={true} enableAnimations={false} animationDuration={1000} padding={this.state.padding}
                     titlePadding={this.state.titlePadding} source={this.state.source} xAxis={this.state.xAxis}

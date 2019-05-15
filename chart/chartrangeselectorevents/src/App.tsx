@@ -116,7 +116,7 @@ class App extends React.PureComponent<{}, IChartProps> {
     public render() {
         return (
             <div>
-                <JqxChart theme={'material-purple'} ref={this.myChart} style={{ width: '850px', height: '500px' }}
+                <JqxChart ref={this.myChart} style={{ width: '850px', height: '500px' }}
                     onClick={this.dumpEventInfo} onToggle={this.dumpEventInfo}
                     onRangeSelectionChanging={this.dumpEventInfo} onRangeSelectionChanged={this.dumpEventInfo}
                     onRefreshBegin={this.dumpEventInfo} onRefreshEnd={this.dumpEventInfo}

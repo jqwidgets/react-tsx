@@ -20,7 +20,7 @@ class App extends React.PureComponent<{}> {
     public render() {
         return (
             <div>
-                <JqxForm theme={'material-purple'}attedInput ref={this.myFormattedInput}
+                <JqxFormattedInput ref={this.myFormattedInput}
                     width={200} height={25} radix={'decimal'} spinButtons={true} 
                     value={330000} decimalNotation={'exponential'} />
 

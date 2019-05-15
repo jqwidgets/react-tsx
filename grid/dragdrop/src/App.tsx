@@ -72,7 +72,7 @@ class App extends React.PureComponent<{}, IState> {
                 };
 
                 ReactDOM.render(
-                    <JqxDragDrop theme={'material-purple'} ref={(dragDrop) => { this.dragDropArray.push(dragDrop!) }}
+                    <JqxDragDrop  ref={(dragDrop) => { this.dragDropArray.push(dragDrop!) }}
                         onDragStart={onDragStart} onDragEnd={onDragEnd}
                         onDropTargetEnter={onDropTargetEnter} onDropTargetLeave={onDropTargetLeave}
                         revert={false} dragZIndex={99999} appendTo={'body'} dropAction={'none'} initFeedback={initFeedback}>{cellText}</JqxDragDrop>,

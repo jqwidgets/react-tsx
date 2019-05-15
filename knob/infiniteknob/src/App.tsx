@@ -114,7 +114,7 @@ class App extends React.PureComponent<{}, IKnobProps> {
 
     public render() {
         return (
-            <JqxKnob theme={'material-purple'} onChange={this.myKnobOnChange}
+            <JqxKnob onChange={this.myKnobOnChange}
                 value={this.state.value} min={this.state.min} max={this.state.max}
                 startAngle={150} endAngle={510} styles={this.state.styles}
                 snapToStep={true} rotation={'clockwise'}

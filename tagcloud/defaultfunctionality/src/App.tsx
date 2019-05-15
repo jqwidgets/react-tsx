@@ -33,7 +33,7 @@ class App extends React.PureComponent<{}, ITagCloudProps> {
 
     public render() {
         return (
-            <JqxTagCloud theme={'material-purple'}
+            <JqxTagCloud
 				// @ts-ignore
                 width={"100%"}
                 source={this.state.source}

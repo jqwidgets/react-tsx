@@ -38,7 +38,7 @@ class App extends React.PureComponent<{}, ITagCloudProps> {
         return (
             <div>
                 This demo demonstrates how to add a tag in first position or update/remove the tag in first position.
-                <JqxTagCloud theme={'material-purple'} ref={this.myTagCloud}
+                <JqxTagCloud ref={this.myTagCloud}
 					// @ts-ignore
                     width={"100%"}
                     source={this.state.source}

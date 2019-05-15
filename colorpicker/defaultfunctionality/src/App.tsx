@@ -51,7 +51,7 @@ class App extends React.PureComponent<{}> {
                 <JqxDropDownButton theme={'material-purple'} ref={this.myDropDown} style={{ margin: '3px', float: 'left' }}
                     width={150} height={22} >
                     <div style={{ padding: '3px' }}>
-                        <JqxColorPicker theme={'material-purple'} onColorchange={this.colorPickerEvent}
+                        <JqxColorPicker onColorchange={this.colorPickerEvent}
                             width={220} height={220} colorMode={'hue'} />
                     </div>
                 </JqxDropDownButton>

@@ -22,7 +22,7 @@ class App extends React.PureComponent<{}, IBarGaugeProps> {
 
     public render() {
         return (
-            <JqxBarGauge theme={'material-purple'}
+            <JqxBarGauge
                 // @ts-ignore
                 width={'100%'} max={150}
                 colorScheme={'scheme02'} values={this.state.values} tooltip={this.state.tooltip}

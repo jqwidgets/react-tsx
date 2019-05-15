@@ -49,7 +49,7 @@ class App extends React.PureComponent<{}, IBulletChartProps> {
                 <label style={{ fontSize: '13px', fontFamily: 'Verdana' }}>
                     Hover over the pointer or target for more information.
                 </label>
-                <JqxBulletChart theme={'material-purple'}
+                <JqxBulletChart
                     // @ts-ignore
                     width={'100%'} height={100} barSize={'50%'} ranges={this.state.ranges} 
                     ticks={this.state.ticks} title={'Student grade'} description={'(in points)'}

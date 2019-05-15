@@ -46,7 +46,7 @@ class App extends React.PureComponent<{}, IBarGaugeProps> {
     public render() {
         return (
             <div>
-                <JqxBarGauge theme={'material-purple'} ref={this.myBarGauge} style={{ float: 'left' }}
+                <JqxBarGauge ref={this.myBarGauge} style={{ float: 'left' }}
                     // @ts-ignore
                     width={'100%'} relativeInnerRadius={0.5}
                     max={255} values={this.state.values} startAngle={0} endAngle={90}

@@ -13,7 +13,7 @@ class App extends React.PureComponent<{}> {
     public render() {
         return (
             <div>
-                <JqxForm theme={'material-purple'}attedInput style={{ float: 'left' }}
+                <JqxFormattedInput style={{ float: 'left' }}
                     width={250} height={25} radix={'hexadecimal'}
                     spinButtons={false} dropDown={true} value={'a1'} />
 

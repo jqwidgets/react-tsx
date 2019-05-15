@@ -134,7 +134,7 @@ class App extends React.PureComponent<{}, IFormProps> {
     public render() {
         return (
             <div>
-                <JqxForm theme={'material-purple'} style={{ width: '420px', height: 'auto', float: 'left' }}
+                <JqxForm style={{ width: '420px', height: 'auto', float: 'left' }}
                     onFormDataChange={this.formEventHandler}
                     template={this.state.template} value={this.state.value} />
 

@@ -16,7 +16,7 @@ class App extends React.PureComponent<{}> {
     public render() {
         return (
             <div style={{ fontSize: '13px', fontFamily: 'Verdana' }}>
-                <JqxRating theme={'material-purple'} onChange={this.onChange} width={350} height={35} />
+                <JqxRating onChange={this.onChange} width={350} height={35} />
                 <div style={{ marginTop: '10px', float: 'left' }}>
                     <div>Rating: </div>
                     <div ref={this.rate} />

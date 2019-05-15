@@ -39,35 +39,35 @@ class App extends React.PureComponent<{}, ISwitchButtonProps> {
                     <div className={"settings-section"}>
                         <div className={"settings-label"}>New Mail</div>
                         <div data-key={1} className={"settings-setter"}>
-                            <JqxSwitchButton theme={'material-purple'} onChecked={this.checkedEvent} onUnchecked={this.uncheckedEvent}
+                            <JqxSwitchButton onChecked={this.checkedEvent} onUnchecked={this.uncheckedEvent}
                                 width={81} height={27} checked={true} />
                         </div>
                     </div>
                     <div className={"settings-section"}>
                         <div className={"settings-label"}>Sent Mail</div>
                         <div data-key={2} className={"settings-setter"}>
-                            <JqxSwitchButton theme={'material-purple'} onChecked={this.checkedEvent} onUnchecked={this.uncheckedEvent}
+                            <JqxSwitchButton onChecked={this.checkedEvent} onUnchecked={this.uncheckedEvent}
                                 width={81} height={27} checked={true} />
                         </div>
                     </div>
                     <div className={"settings-section"}>
                         <div className={"settings-label"}>Calendar Alerts</div>
                         <div data-key={3} className={"settings-setter"}>
-                            <JqxSwitchButton theme={'material-purple'} onChecked={this.checkedEvent} onUnchecked={this.uncheckedEvent}
+                            <JqxSwitchButton onChecked={this.checkedEvent} onUnchecked={this.uncheckedEvent}
                                 width={81} height={27} checked={true} />
                         </div>
                     </div>
                     <div className={"settings-section"}>
                         <div className={"settings-label"}>Lock Sounds</div>
                         <div data-key={4} className={"settings-setter"}>
-                            <JqxSwitchButton theme={'material-purple'} onChecked={this.checkedEvent} onUnchecked={this.uncheckedEvent}
+                            <JqxSwitchButton onChecked={this.checkedEvent} onUnchecked={this.uncheckedEvent}
                                 width={81} height={27} checked={true} />
                         </div>
                     </div>
                     <div className={"sections-section-bottom settings-section"}>
                         <div className={"settings-label"}>Keyboard Clicks</div>
                         <div data-key={5} className={"settings-setter"}>
-                            <JqxSwitchButton theme={'material-purple'} onChecked={this.checkedEvent} onUnchecked={this.uncheckedEvent}
+                            <JqxSwitchButton onChecked={this.checkedEvent} onUnchecked={this.uncheckedEvent}
                                 width={81} height={27} checked={false} />
                         </div>
                     </div>

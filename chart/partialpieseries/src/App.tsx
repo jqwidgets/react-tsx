@@ -99,25 +99,25 @@ class App extends React.PureComponent<{}, IState> {
     public render() {
         return (
             <div>
-                <JqxChart theme={'material-purple'} style={{ float: 'left', width: '400px', height: '250px' }}
+                <JqxChart style={{ float: 'left', width: '400px', height: '250px' }}
                     title={''} description={this.state.description} showLegend={true}
                     enableAnimations={false} padding={this.state.padding} titlePadding={this.state.titlePadding}
                     source={this.state.source} showBorderLine={true} seriesGroups={this.state.seriesGroups}
                     colorScheme={'scheme03'} />
 
-                <JqxChart theme={'material-purple'} style={{ float: 'left', width: '400px', height: '250px' }}
+                <JqxChart style={{ float: 'left', width: '400px', height: '250px' }}
                     title={''} description={this.state.description2} showLegend={true}
                     enableAnimations={false} padding={this.state.padding} titlePadding={this.state.titlePadding}
                     source={this.state.source2} showBorderLine={true} seriesGroups={this.state.seriesGroups}
                     colorScheme={'scheme03'} />
 
-                <JqxChart theme={'material-purple'} style={{ float: 'left', width: '400px', height: '250px' }}
+                <JqxChart style={{ float: 'left', width: '400px', height: '250px' }}
                     title={''} description={this.state.description3} showLegend={true}
                     enableAnimations={false} padding={this.state.padding} titlePadding={this.state.titlePadding}
                     source={this.state.source3} showBorderLine={true} seriesGroups={this.state.seriesGroups}
                     colorScheme={'scheme03'} />
 
-                <JqxChart theme={'material-purple'} style={{ float: 'left', width: '400px', height: '250px' }}
+                <JqxChart style={{ float: 'left', width: '400px', height: '250px' }}
                     title={''} description={this.state.description4} showLegend={true}
                     enableAnimations={false} padding={this.state.padding} titlePadding={this.state.titlePadding}
                     source={this.state.source4} showBorderLine={true} seriesGroups={this.state.seriesGroups}

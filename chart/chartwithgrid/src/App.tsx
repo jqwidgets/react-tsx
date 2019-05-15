@@ -85,7 +85,7 @@ class App extends React.PureComponent<{}, IState> {
                     width={'100%'} height={230} filterable={true}
                     source={this.state.dataAdapter} columns={this.state.columns} showfilterrow={true} />
 
-                <JqxChart theme={'material-purple'} ref={this.myChart} style={{ width: '850px', height: '500px', marginTop: '50px' }}
+                <JqxChart ref={this.myChart} style={{ width: '850px', height: '500px', marginTop: '50px' }}
                     title={this.state.title} description={this.state.description}
                     showLegend={true} enableAnimations={true} padding={this.state.padding}
                     titlePadding={this.state.titlePadding} source={this.state.source} xAxis={this.state.xAxis}

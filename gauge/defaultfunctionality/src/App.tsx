@@ -69,14 +69,14 @@ class App extends React.PureComponent<{}, IState> {
         return (
             <div className="main-container">
                 <div style={{ float: 'left' }}>
-                    <JqxGauge theme={'material-purple'} ref={this.myGauge} onValueChanging={this.onValueChanging}
+                    <JqxGauge  ref={this.myGauge} onValueChanging={this.onValueChanging}
                         ranges={this.state.ranges} ticksMinor={this.state.ticksMinor}
                         ticksMajor={this.state.ticksMajor} colorScheme={'scheme05'} animationDuration={1200}
                     />
                     <div ref={this.gaugeValue} className="gaugeValue" />
                 </div>
 
-                <JqxLinearGauge theme={'material-purple'} ref={this.myLinearGauge} style={{ marginLeft: '60px', float: 'left' }}
+                <JqxLinearGauge ref={this.myLinearGauge} style={{ marginLeft: '60px', float: 'left' }}
                     width={100} height={350} max={60} orientation={'vertical'} ticksMajor={this.state.ticksMajorLinear}
                     ticksMinor={this.state.ticksMinorLinear} pointer={{ size: '5%' }} colorScheme={'scheme05'}
                     labels={this.state.labelsLinear} ranges={this.state.rangesLinear} animationDuration={1500}

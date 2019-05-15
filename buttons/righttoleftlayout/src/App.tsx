@@ -49,7 +49,7 @@ class App extends React.PureComponent<{}> {
                     </div>
                 </JqxDropDownButton>
                 <strong>Switch Button</strong>
-                <JqxSwitchButton theme={'material-purple'} style={{ marginTop: '10px' }} width={100} rtl={true}/>
+                <JqxSwitchButton style={{ marginTop: '10px' }} width={100} rtl={true}/>
             </div>
         );
     }

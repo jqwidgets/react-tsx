@@ -36,7 +36,7 @@ class App extends React.PureComponent<{}, IBulletChartProps> {
 
     public render() {
         return (
-            <JqxBulletChart theme={'material-purple'}
+            <JqxBulletChart
                 width={150} height={500} barSize={'35%'} ranges={this.state.ranges} ticks={this.state.ticks}
                 title={'Revenue 2019 YTD'} description={'(U.S. $ in thousands)'} animationDuration={0}
                 pointer={this.state.pointer} target={this.state.target} labelsFormat={'c'}

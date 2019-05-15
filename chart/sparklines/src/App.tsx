@@ -68,7 +68,7 @@ class App extends React.PureComponent<{}, IDataTableProps> {
             };
   
             ReactDOM.render(
-                <JqxChart theme={'material-purple'} style={{ width: '100%', height: '100%' }} backgroundColor={'transparent'} colorScheme={'scheme01'} description={''} enableAnimations={false}
+                <JqxChart style={{ width: '100%', height: '100%' }} backgroundColor={'transparent'} colorScheme={'scheme01'} description={''} enableAnimations={false}
                     padding={padding} seriesGroups={seriesGroups} showBorderLine={false} showLegend={false} showToolTips={false}
                     source={dataParam} title={''} titlePadding={titlePadding} xAxis={xAxis} />,
                 document.querySelector(`#${selector}`)

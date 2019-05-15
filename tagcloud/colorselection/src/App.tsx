@@ -64,7 +64,7 @@ class App extends React.PureComponent<{}, ITagCloudProps> {
     public render() {
         return (
             <div>
-                <JqxTagCloud theme={'material-purple'} ref={this.myTagCloud}
+                <JqxTagCloud ref={this.myTagCloud}
 					// @ts-ignore
                     width={"100%"}
                     source={this.state.source}
@@ -83,7 +83,7 @@ class App extends React.PureComponent<{}, ITagCloudProps> {
                         <label style={{ marginLeft: 5, fontSize: 12, fontFamily: "Verdana" }}>Select Min Color</label>
 
                         <JqxDropDownButton theme={'material-purple'} ref={this.myDropDownButton1} width={150} height={22}>
-                            <JqxColorPicker theme={'material-purple'}
+                            <JqxColorPicker
                                 onColorchange={this.myColorPickerOnColorChange}
                                 width={220}
                                 height={220}
@@ -96,7 +96,7 @@ class App extends React.PureComponent<{}, ITagCloudProps> {
                         <label style={{ marginLeft: 5, fontSize: 12, fontFamily: "Verdana" }}>Select Max Color</label>
 
                         <JqxDropDownButton theme={'material-purple'} ref={this.myDropDownButton2} width={150} height={22}>
-                            <JqxColorPicker theme={'material-purple'}
+                            <JqxColorPicker
                                 onColorchange={this.myColorPicker2OnColorChange}
                                 width={220}
                                 height={220}

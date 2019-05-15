@@ -90,7 +90,7 @@ class App extends React.PureComponent<{}, IChartProps> {
     public render() {
         return (
             <div>
-                <JqxChart theme={'material-purple'} ref={this.myChart} style={{ width: '850px', height: '500px' }}
+                <JqxChart ref={this.myChart} style={{ width: '850px', height: '500px' }}
                     title={this.state.title} description={this.state.description} titlePadding={this.state.titlePadding}
                     showLegend={true} enableAnimations={true} enableCrosshairs={true} padding={this.state.padding}
                     source={this.state.source} xAxis={this.state.xAxis} valueAxis={this.state.valueAxis}

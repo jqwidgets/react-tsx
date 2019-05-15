@@ -71,7 +71,7 @@ class App extends React.PureComponent<{}, ITagCloudProps> {
 
     public render() {
         return (
-            <JqxTagCloud theme={'material-purple'} ref={this.myTagCloud}
+            <JqxTagCloud ref={this.myTagCloud}
                 // @ts-ignore
                 width={"100%"}
                 source={this.state.source}

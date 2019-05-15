@@ -15,7 +15,7 @@ class App extends React.PureComponent<{}, {}> {
 
     public render() {
         return (
-            <JqxSortable theme={'material-purple'} ref={this.mySortable}>
+            <JqxSortable ref={this.mySortable}>
                 <div>1</div>
                 <div>2</div>
                 <div>3</div>

@@ -73,7 +73,7 @@ class App extends React.PureComponent<{}, IState> {
 
         return (
             <div>
-                <JqxLinearGauge theme={'material-purple'} ref={this.myLinearGauge} style={{ marginLeft: '20px', float: 'left' }}
+                <JqxLinearGauge ref={this.myLinearGauge} style={{ marginLeft: '20px', float: 'left' }}
                     width={this.state.width} height={this.state.height} orientation={this.state.orientation}
                     ticksMajor={this.state.ticksMajor} ticksMinor={this.state.ticksMinor} max={60} background={this.state.background}
                     labels={this.state.labels} showRanges={this.state.showRanges} pointer={this.state.pointer}

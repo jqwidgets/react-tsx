@@ -39,7 +39,7 @@ const SortableComponent = (props: any) => {
     };
     return <div>
         <span>Team {props.whichHalf}</span>
-        <JqxSortable theme={'material-purple'} className={"sortable"} connectWith={props.connectWith} opacity={props.opacity}>
+        <JqxSortable className={"sortable"} connectWith={props.connectWith} opacity={props.opacity}>
             {firstNames.map((firstName, i): any => {
                 if (validation(props.whichHalf, i)) {
                     const imgurl = 'https://www.jqwidgets.com/react/images/' + firstNames[i].toLowerCase() + '.png';

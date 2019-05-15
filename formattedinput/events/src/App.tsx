@@ -20,7 +20,7 @@ class App extends React.PureComponent<{}> {
     public render() {
         return (
             <div>
-                <JqxForm theme={'material-purple'}attedInput
+                <JqxFormattedInput
                     onOpen={this.onOpen} onClose={this.onClose}
                     onChange={this.onChange} onRadixChange={this.onRadixChange}
                     width={300} height={25} radix={'decimal'}
